@@ -7,14 +7,14 @@ html {
 }
 
 body {
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
     color: #fff;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -41,18 +41,17 @@ p {
 }
 
 header {
-    background-color: var(--gray-dark);
-    padding: 1rem 0
+    background-color: var(--dark-green);
 }
 
 .overview {
-    background-color: var(--gray);
-    color: #fff;
-    padding: 4rem 0;
+    background-color: var(--dark-green);
+    color: #CBB49F;
+    padding: 4rem 12rem;
 }
 
 figure {
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 figure img {
@@ -66,12 +65,12 @@ figcaption {
 }
 
 .sample {
-    padding: 5rem 0;
+    padding: 0rem 0;
 }
 
 footer {
-    background-color: var(--gray-light);
-    padding: 1.5rem 0;
+    background-color: var(--orange);
+    padding: 8.75rem 0;
 }
 
 footer p {
@@ -81,7 +80,7 @@ footer p {
 @media screen and (min-width: 800px) {
     .two-column {
         display: grid;
-        grid-gap: 3rem;
+        grid-gap: 0rem;
         grid-template-columns: 1fr 1fr;
     }
 }
