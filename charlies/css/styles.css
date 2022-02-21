@@ -19,8 +19,8 @@ h1 {
 }
 
 h2 {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -33,7 +33,7 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1288px) [main-end] minmax(1rem, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(0rem, 1fr) [main-start] minmax(0, 1288px) [main-end] minmax(1rem, 1fr) [full-end];
 }
 
 .grid > * {
@@ -65,16 +65,19 @@ figcaption {
 }
 
 .sample {
-    padding: 0rem 0;
+    background-color: var(--dark-green);
+    padding: 14.959rem 2.688rem;
 }
 
 footer {
     background-color: var(--orange);
+    color: #F8F3EB;
     padding: 8.75rem 0;
 }
 
 footer p {
-    margin-bottom: 0;
+    margin-bottom: 0,;
+    margin-left: 8rem;
 }
 
 @media screen and (min-width: 800px) {
