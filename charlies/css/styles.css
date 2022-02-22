@@ -11,6 +11,24 @@ body {
     font-weight: 400;
 }
 
+.mint-header1 {
+    background-color: var(--mint);
+    height: 14px;
+    left: 93px;
+    position: absolute;
+    top: 233px;
+    width: 337px;
+}
+
+.mint-header2 {
+    background-color: var(--sea-mist);
+    height: 14px;
+    left: 85px;
+    position: absolute;
+    top: 447px;
+    width: 345px;
+  }
+
 h1 {
     color: #fff;
     font-size: 18px;
@@ -36,6 +54,15 @@ p {
     grid-template-columns: [full-start] minmax(0rem, 1fr) [main-start] minmax(0, 1288px) [main-end] minmax(1rem, 1fr) [full-end];
 }
 
+.cup-header {
+    background-color: #494F41;
+    height: 204px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 375px;
+  }
+
 .grid > * {
     grid-column: main;
 }
@@ -48,6 +75,15 @@ header {
     background-color: var(--dark-green);
     color: #CBB49F;
     padding: 4rem 12rem;
+}
+
+.two-column {
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 132px;
+    width: 262px
+
 }
 
 figure {
