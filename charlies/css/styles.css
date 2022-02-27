@@ -7,6 +7,7 @@ html {
 }
 
 body {
+    background-color: #494F41;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
 }
@@ -14,7 +15,7 @@ body {
 .mint-header1 {
     background-color: var(--mint);
     height: 14px;
-    left: 93px;
+    left: 37px;
     position: absolute;
     top: 233px;
     width: 337px;
@@ -23,7 +24,7 @@ body {
 .mint-header2 {
     background-color: var(--sea-mist);
     height: 14px;
-    left: 85px;
+    left: 29px;
     position: absolute;
     top: 447px;
     width: 345px;
@@ -55,11 +56,7 @@ p {
 }
 
 .cup-header {
-    background-color: #494F41;
-    height: 204px;
-    left: 0px;
     position: absolute;
-    top: 0px;
     width: 375px;
   }
 
@@ -78,11 +75,11 @@ header {
 }
 
 .two-column {
-    height: 350px;
+    height: 262px;
     left: 0;
     position: absolute;
-    top: 132px;
-    width: 262px
+    top: 216px;
+    width: 172px
 
 }
 
@@ -114,12 +111,4 @@ footer {
 footer p {
     margin-bottom: 0,;
     margin-left: 8rem;
-}
-
-@media screen and (min-width: 800px) {
-    .two-column {
-        display: grid;
-        grid-gap: 0rem;
-        grid-template-columns: 1fr 1fr;
-    }
 }
