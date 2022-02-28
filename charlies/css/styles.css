@@ -50,11 +50,6 @@ p {
     margin-bottom: 1rem;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(0rem, 1fr) [main-start] minmax(0, 1288px) [main-end] minmax(1rem, 1fr) [full-end];
-}
-
 .cup-header {
     position: absolute;
     width: 375px;
