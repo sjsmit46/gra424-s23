@@ -35,32 +35,35 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
+    position: absolute;
 }
 
 h2 {
+    color: #CBB49F;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
     text-transform: uppercase;
+    position: absolute;
 }
 p {
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 1rem;
+    position: absolute;
 }
 
 .cup-header {
     position: absolute;
     width: 375px;
+    position: absolute;
   }
 
-.grid > * {
-    grid-column: main;
-}
 
 header {
     background-color: var(--dark-green);
+    position: absolute;
 }
 
 .overview {
@@ -92,7 +95,7 @@ figcaption {
     letter-spacing: 1px;
 }
 
-.sample {
+.map {
     background-color: var(--dark-green);
     padding: 14.959rem 2.688rem;
 }
@@ -103,7 +106,27 @@ footer {
     padding: 8.75rem 0;
 }
 
-footer p {
+.footer p {
     margin-bottom: 0,;
     margin-left: 8rem;
+}
+
+.intro {
+    color:#F8F3EB;
+    font-size: 13px;
+    padding: 0rem 11rem 18.125rem
+}
+
+.title {
+    color: #CBB49F;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8.063rem 11rem 18.125rem
+}
+
+.hours {
+    color:#CBB49F;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11.063rem 18.125rem 
 }
