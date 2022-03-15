@@ -1,5 +1,5 @@
 html {
-    --blush: #CBB49F;
+    --blush: ##EFDCCB;
     --dark-green: #494F41;
     --mint: #C5D4C4;
     --orange: #D2925F;
@@ -12,27 +12,30 @@ body {
 }
 
 .cup {
-    width: 50%;
+    width: 45%;
 }
 
 .mint-header1 {
-    width:
+    padding-left: 4rem;
 }
 
 .mint-header2 {
-
+    padding-left: 4rem;
 }
 
 .name {
-    color: #CBB49F;
+    color: #EFDCCB;
+    font-size: 50px;
     font-weight: bolder;
 }
 
 .intro {
     color: #F8F3EB;
+    font-size: 28px;
 }
 
 .hours {
-    color: #CBB49F;
+    color: #EFDCCB;
+    font-size: 28px;
     font-weight: bolder;
 }
