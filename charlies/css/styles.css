@@ -9,124 +9,22 @@ html {
 body {
     background-color: #494F41;
     font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
 }
 
-.mint-header1 {
-    background-color: var(--mint);
-    height: 14px;
-    left: 37px;
-    position: absolute;
-    top: 233px;
-    width: 337px;
+.cup {
+    width: 55%;
 }
 
-.mint-header2 {
-    background-color: var(--sea-mist);
-    height: 14px;
-    left: 29px;
-    position: absolute;
-    top: 447px;
-    width: 345px;
-  }
-
-h1 {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    position: absolute;
-}
-
-h2 {
+.name {
     color: #CBB49F;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    position: absolute;
-}
-p {
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    position: absolute;
-}
-
-.cup-header {
-    position: absolute;
-    width: 375px;
-    position: absolute;
-  }
-
-
-header {
-    background-color: var(--dark-green);
-    position: absolute;
-}
-
-.overview {
-    background-color: var(--dark-green);
-    color: #CBB49F;
-    padding: 4rem 12rem;
-}
-
-.two-column {
-    height: 262px;
-    left: 0;
-    position: absolute;
-    top: 216px;
-    width: 172px
-
-}
-
-figure {
-    margin-top: 0rem;
-}
-
-figure img {
-    margin-bottom: 1rem;
-}
-
-figcaption {
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-
-.map {
-    background-color: var(--dark-green);
-    padding: 14.959rem 2.688rem;
-}
-
-footer {
-    background-color: var(--orange);
-    color: #F8F3EB;
-    padding: 8.75rem 0;
-}
-
-.footer p {
-    margin-bottom: 0,;
-    margin-left: 8rem;
+    font-weight: bolder;
 }
 
 .intro {
-    color:#F8F3EB;
-    font-size: 13px;
-    padding: 0rem 11rem 18.125rem
-}
-
-.title {
-    color: #CBB49F;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 8.063rem 11rem 18.125rem
+    color: #F8F3EB;
 }
 
 .hours {
-    color:#CBB49F;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 11.063rem 18.125rem 
+    color: #CBB49F;
+    font-weight: bolder;
 }
