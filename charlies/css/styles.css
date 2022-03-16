@@ -9,34 +9,76 @@ html {
 body {
     background-color: #494F41;
     font-family: 'PT Sans', sans-serif;
+    height: 3537px;
 }
 
 .cup {
-    width: 45%;
-}
-
-.mint-header1 {
-    padding-left: 4rem;
-}
-
-.mint-header2 {
-    padding-left: 4rem;
+    width: 100%;
+    position: absolute;
 }
 
 .name {
     color: #EFDCCB;
     font-size: 50px;
     font-weight: bolder;
+    padding-left: 44.25rem 0rem;
 }
 
 .intro {
     color: #F8F3EB;
     font-size: 28px;
-    line-spacing:
+    padding-left: 44.25rem 0rem;
 }
 
 .hours {
     color: #EFDCCB;
     font-size: 28px;
     font-weight: bolder;
+    padding-left: 44.25rem 0rem;
 }
+
+.menu-header {
+    background-color: #494F41;
+    color: #F8F3EB;
+    font-size: 50px;
+    padding-left: 11.688rem;
+}
+
+.drinks-header {
+    background-color: #494F41;
+    color: #EFDCCB;
+    font-size: 40px;
+    padding-left: 11.688rem;
+}
+
+.food-header {
+    background-color: #494F41;
+    color: #EFDCCB;
+    font-size: 40px;
+    padding-left: 11.688rem;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #D2925F;
+    color: #F8F3EB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
+}
+
+.white-logo {
+    background-color: #D2925F;
+    height: 131.74px;
+    margin-bottom: 0;
+    padding-left: 11.813rem;
+}
+
+
+@media screen and (min-width: 375px) {
+
+    }
