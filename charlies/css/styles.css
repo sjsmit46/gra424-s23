@@ -69,6 +69,17 @@ body {
    color:#F8F3EB;
 }
 
+.directions {
+   background-color: #C5D4C4;
+   border-radius: 19px;
+   color: #494F41;
+   font-weight: 700;
+}
+
+.map {
+   size:50;
+}
+
 .footer {
    background-color: #D2925F;
    color:#F8F3EB;
