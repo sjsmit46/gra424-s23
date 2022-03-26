@@ -1,14 +1,75 @@
 html {
-    --blush: ##EFDCCB;
+    --blush: #EFDCCB;
     --dark-green: #494F41;
     --mint: #C5D4C4;
     --orange: #D2925F;
     --white: #F8F3EB;
  }
   
- body {
+body {
     background-color: #494F41;
     font-family: 'PT Sans', sans-serif;
     height: 3537px;
- }
+}
+
+.intro {
+   color: #F8F3EB;
+
+}
+
+.title {
+   color: #EFDCCB;
+}
+
+.main {
+   color: #C5D4C4;
+   font-weight: lighter;
+}
+.menu {
+   color:#F8F3EB;
+}
+
+.drinks {
+   color: #EFDCCB;
+}
+
+.all-drinks {
+    color: #EFDCCB;
+}
+
+.all-s {
+   color: #C5D4C4;
+}
+
+.all-l {
+   color: #C5D4C4;
+}
+
+.espresso-drinks {
+   color: #EFDCCB;
+}
+
+.espresso-s {
+   color:#C5D4C4;
+}
+
+.espresso-l {
+   color:#C5D4C4;
+}
  
+.food {
+   color: #EFDCCB;
+}
+
+.location {
+   color: #C5D4C4;
+}
+
+.location-info {
+   color:#F8F3EB;
+}
+
+.footer {
+   background-color: #D2925F;
+   color:#F8F3EB;
+}
