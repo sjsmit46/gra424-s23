@@ -56,9 +56,125 @@ body {
 .espresso-l {
    color:#C5D4C4;
 }
+
+.blended-drinks {
+   color: #F8F3EB;
+}
+
+.americano {
+   color: #F8F3EB;
+}
+
+.cold-brew {
+   color: #F8F3EB;
+}
+
+.brewed-coffee {
+   color: #F8F3EB;
+}
+
+.hot-choc {
+   color: #F8F3EB;
+}
+
+.cappu {
+   color: #F8F3EB;
+}
+
+.smoothie {
+   color: #F8F3EB;
+}
+
+.chai {
+   color: #F8F3EB;
+}
+
+.kombucha {
+   color: #F8F3EB;
+}
+
+.dirty {
+   color: #F8F3EB;
+}
+
+.naked {
+   color: #F8F3EB;
+}
+
+.drips {
+   color: #F8F3EB;
+}
+
+.tea {
+   color: #F8F3EB;
+}
+
+.espresso {
+   color: #F8F3EB;
+}
+
+.red {
+   color: #F8F3EB;
+}
+
+.latte {
+   color: #F8F3EB;
+}
+
+.fushion {
+   color: #F8F3EB;
+}
+
+.macchiato {
+   color: #F8F3EB;
+}
+
+.simply {
+   color: #F8F3EB;
+}
+
+.soda {
+   color: #F8F3EB;
+}
+
+.milk-sub {
+   color: #EFDCCB;
+}
+
+.water {
+   color: #F8F3EB;
+}
  
+.oat {
+   color: #F8F3EB;
+}
+
+.shake {
+   color: #F8F3EB;
+}
+
+.soy {
+   color: #F8F3EB;
+}
+
+.yerba {
+   color: #F8F3EB;
+}
+
+.almond {
+   color: #F8F3EB;
+}
+
 .food {
    color: #EFDCCB;
+}
+
+.paninis {
+   color:#EFDCCB;
+}
+
+.other-food {
+   color:#EFDCCB;
 }
 
 .location {
