@@ -20,23 +20,32 @@
 <body>
   <!-- Add your content here -->
   <header>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav">
-      <h1 href="#home" class="active">Sarah Smith</h1>
-      <!-- Navigation links (hidden by default) -->
-      <div id="myLinks">
-        <a href="#motion">Symbol Motion</a>
-        <a href="#coding">Coding</a>
-        <a href="#ux">UX Design</a>
-      </div>
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sarah Smith</span>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#home">Home</a>
+      <a href="#coding">Coding</a>
+      <a href="#ux">UX Design</a>
+      <a href="#motion">Motion</a>
     </div>
+  </div>
   </header>
 
 
+
+
+
+
+
+     
+
+
+
+
+
+
+  
 
 
 
@@ -58,7 +67,7 @@
     <p>The Visual Communication Design Program</p>
     <p>© 2022 Sarah Smith </p>
   </footer>
-  
+
   <!-- Load Scripts -->
   <script src="js/scripts.js"></script>
  
