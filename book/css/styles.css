@@ -13,6 +13,32 @@ body {
     height: 1265.94px;
 }
 
+.name {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.welcome {
+    padding: 2rem;
+
+}
+
+.welcome-p {
+    font-family: "le-monde-livre-std";
+}
+
+.about {
+    padding:2rem;
+}
+
+.about-p {
+    font-family: "le-monde-livre-std";
+}
+
+.footer {
+    font-family: "le-monde-livre-std";
+    padding:2rem;
+}
 
 .overlay {
     height: 100%;
@@ -30,7 +56,8 @@ body {
     position: relative;
     top: 25%;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    left: 200px;
     margin-top: 30px;
     
   }
@@ -48,7 +75,6 @@ body {
   
 .overlay a:hover, .overlay a:focus {
     color: var(--brown);
-    
   }
   
 .overlay .closebtn {
@@ -56,6 +82,7 @@ body {
     top: 20px;
     right: 45px;
     font-size: 60px;
+    
   }
   
 @media screen and (max-height: 450px) {
