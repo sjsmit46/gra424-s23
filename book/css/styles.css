@@ -13,6 +13,7 @@ body {
     height: 1265.94px;
 }
 
+
 .overlay {
     height: 100%;
     width: 0;
@@ -31,19 +32,23 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 30px;
+    
   }
+
   
 .overlay a {
-    padding: 8px;
+    padding: 10px;
     text-decoration: none;
     font-size: 36px;
     color: var(--green);
     display: block;
     transition: 0.3s;
+    align-items: left;
   }
   
 .overlay a:hover, .overlay a:focus {
     color: var(--brown);
+    
   }
   
 .overlay .closebtn {
