@@ -1,16 +1,60 @@
 html {
     --green: #274F3F;
     --cream: #FEFAF6;
+    --brown: #C7BBAC;
  }
   
 body {
     background-color: #FEFAF6;
+    color:#274F3F;
     font-family: 'ivymode', sans-serif;
     font-weight: 600;
     font-style: normal;
-    height: 3537px;
+    height: 1265.94px;
 }
 
 font-family: le-monde-livre-std, serif;
 font-weight: 500;
 font-style: normal;
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #FEFAF6;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: var(--green);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: var(--cream);
+    color: #C7BBAC;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: var(--cream);
+    color: var(--green);
+  }
