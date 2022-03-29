@@ -13,24 +13,40 @@ body {
 }
 
 .intro {
-   color: #F8F3EB;
+   color:#F8F3EB;
+   position:relative;
+  
 }
+
+.cup {
+   display:block;
+}
+
 
 .title {
    color: #EFDCCB;
+   left:300px;
+
 }
 
+.info {
+   left:300px;
+}
 
 .hours {
    color: #EFDCCB;
    font-weight: 700;
+   left:300px;
+  
 }
 
 .main {
    color: #C5D4C4;
    font-weight: lighter;
    margin-top: 1483px;
+   position: absolute;
 }
+
 .menu {
    color:#F8F3EB;
 }
@@ -205,4 +221,10 @@ body {
 .footer {
    background-color: #D2925F;
    color:#F8F3EB;
+}
+
+@media screen and (max-width:1280px) and (min-width:375px) {
+   .main {
+      margin:43px;
+   }
 }

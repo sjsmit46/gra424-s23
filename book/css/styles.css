@@ -1,0 +1,16 @@
+html {
+    --green: #274F3F;
+    --cream: #FEFAF6;
+ }
+  
+body {
+    background-color: #FEFAF6;
+    font-family: 'ivymode', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    height: 3537px;
+}
+
+font-family: le-monde-livre-std, serif;
+font-weight: 500;
+font-style: normal;
