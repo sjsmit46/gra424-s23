@@ -12,11 +12,21 @@ body {
     height: 3537px;
 }
 
+.intro-text {
+   position: absolute;
+   margin-bottom: 4.6em;
+   bottom: 20px;
+   right: 20px;
+   background-color: #494F41;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
 .intro {
    color:#F8F3EB;
    position:relative;
-  
 }
+
 
 .cup {
    display:block;
@@ -45,6 +55,7 @@ body {
    font-weight: lighter;
    margin-top: 1483px;
    position: absolute;
+   text-align: left;
 }
 
 .menu {
@@ -223,8 +234,22 @@ body {
    color:#F8F3EB;
 }
 
-@media screen and (max-width:1280px) and (min-width:375px) {
+
+
+@media screen and (min-width: 375px) {
    .main {
-      margin:43px;
+     font-size: 28px;
    }
-}
+   .location {
+      font-size: 30px;
+   }
+ }
+
+ @media screen and (max-width: 1280px) {
+   .main {
+     font-size: 22px;
+   }
+   .location {
+      font-size: 20px;
+   }
+ }
