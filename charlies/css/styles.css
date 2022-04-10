@@ -27,12 +27,9 @@ body {
    position:relative;
 }
 
-
-
 .cup {
    display:block;
 }
-
 
 .title {
    color: #EFDCCB;
@@ -55,7 +52,8 @@ body {
    color: #C5D4C4;
    font-weight: lighter;
    margin-top: .5em;
-   position: absolute;
+   margin-left: 30px;
+   position: relative;
    text-align: left;
 }
 
@@ -69,12 +67,11 @@ body {
 }
 
 .column {
+   color:#F8F3EB;
    float: left;
    width: 50%;
-   padding: 10px;
 
 }
- 
 
 .row:after {
    content: "";
@@ -82,7 +79,26 @@ body {
    clear: both;
 }
 
+.all-drinks {
+   color:#EFDCCB;
+}
 
+.espresso {
+   color:#EFDCCB;
+}
+
+.paninis {
+   color:#EFDCCB;
+}
+
+.price {
+   color: #C5D4C4;
+   font-weight: bold;
+}
+
+.other-food {
+   color:#EFDCCB;
+}
 
 .location {
    color: #C5D4C4;
@@ -109,9 +125,35 @@ body {
 }
 
 
-
 @media screen and (max-width: 600px) {
+   
    .column {
      width: 100%;
+   }
+ }
+
+ /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 376px) {
+   h2.menu {
+      font-size: 30px;
+   }
+   h3.drinks {
+      font-size: 30px;
+   }
+   div.column {
+     font-size: 30px;
+   }
+ }
+ 
+ /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+ @media screen and (max-width: 375px) {
+   h2.menu {
+      font-size: 25px;
+   }
+   h3.drinks {
+      font-size: 20px;
+   }
+   div.column {
+     font-size: 20px;
    }
  }
