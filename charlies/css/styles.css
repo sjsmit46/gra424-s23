@@ -57,19 +57,46 @@ body {
    text-align: left;
 }
 
+
+.drinks {
+   color:#EFDCCB;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+}
+.drinks span {
+   background: #fff;
+   margin: 0 15px;
+}
+.drinks:after {
+   background:#EFDCCB;
+   height: 24px;
+   flex: 1;
+   content: '';
+   border-radius: 100px 0 0 100px;
+}
+.drinks.left:after {
+   background: none;
+}
+.drinks.right:before {
+   background: none;
+}
+
+
+
 .menu {
    color:#F8F3EB;
    gap: 1rem;
+   margin-left: 30px;
 }
 
-.drinks {
-   color: #EFDCCB;
-}
 
 .column {
    color:#F8F3EB;
    float: left;
    width: 50%;
+   padding: 1em;
 
 }
 
@@ -100,9 +127,38 @@ body {
    color:#EFDCCB;
 }
 
+
+
+
+
+
 .location {
-   color: #C5D4C4;
+   color:#C5D4C4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 0;
 }
+.location span {
+   background: #fff;
+   margin: 0 15px;
+}
+.location:before {
+   background:#C5D4C4;
+   height: 24px;
+   flex: 1;
+   content: '';
+   border-radius: 0px 100px 100px 0;
+}
+.location.left:after {
+   background: none;
+}
+.location.right:before {
+   background: none;
+}
+
+
+
 
 .location-info {
    color:#F8F3EB;
