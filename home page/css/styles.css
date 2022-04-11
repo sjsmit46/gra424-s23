@@ -13,6 +13,18 @@ body {
     height: 1265.94px;
     min-height: 100vh;
 	  font-style: normal;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.program-book {
+	font-size: 3vw;
+	font-family: "le-monde-livre-std", sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #FEFAF6;
+	line-height: 0.8;
+	text-align: center;
 }
 
 
@@ -20,23 +32,6 @@ body {
 *::before {
 	box-sizing: border-box;
 }
-
-/* Color schemes */
-.demo-magneto {
-	--color-text: #41353d;
-	--color-background: #274F3F;
-	--color-link: #000;
-	--color-link-hover: #41353d;
-}
-
-
-.demo-playful {
-	--color-text: #fff;
-	--color-background: #00ecf0;
-	--color-link: #000;
-	--color-link-hover: #fffea2;
-}
-
 
 
 
@@ -270,12 +265,14 @@ a.demo--current {
 .word--magneto {
 	font-size: 10vw;
 	font-family: 'ivymode', sans-serif;
-	font-weight: 900;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: #FEFAF6;
 	line-height: 0.8;
 	margin: 0 0 1em 0;
 }
+
+
 
 .word--magneto > span {
 	display: block;
@@ -400,6 +397,7 @@ a.demo--current {
     transition: 0.3s;
     align-items: left;
   }
+
   
 .overlay a:hover, .overlay a:focus {
     color: var(--brown);
@@ -423,3 +421,8 @@ a.demo--current {
   }
 
 
+  
+.footer {
+	font-family: "le-monde-livre-std";
+	padding:2rem;
+}
