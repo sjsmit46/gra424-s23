@@ -15,8 +15,10 @@ body {
 }
 
 .name {
-    margin-top: 5rem;
+    margin-top: 51rem;
     padding: 2rem;
+    font-family: 'ivymode', sans-serif;
+	  font-weight: 900;
 }
 
 .welcome {
