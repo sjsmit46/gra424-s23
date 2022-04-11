@@ -9,8 +9,8 @@ html {
 body {
     background-color: #494F41;
     font-family: 'PT Sans', sans-serif;
-    min-height: 2622px;
 }
+
 
 .intro-text {
    position: absolute;
@@ -63,7 +63,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-left: 30px;
+   margin-left: 23px;
 }
 .drinks span {
    background: #fff;
@@ -71,10 +71,11 @@ body {
 }
 .drinks:after {
    background:#EFDCCB;
-   height: 24px;
+   height: 21px;
    flex: 1;
    content: '';
    border-radius: 100px 0 0 100px;
+   margin-left:40px;
 }
 .drinks.left:after {
    background: none;
@@ -89,6 +90,7 @@ body {
    color:#F8F3EB;
    gap: 1rem;
    margin-left: 30px;
+   padding-bottom: 35px;
 }
 
 
@@ -98,6 +100,10 @@ body {
    width: 50%;
    padding: 1em;
 
+}
+
+th, td {
+   padding-left: 15px;
 }
 
 .row:after {
@@ -137,7 +143,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-left: 0;
+   margin-right: 40px;
 }
 .location span {
    background: #fff;
@@ -145,10 +151,11 @@ body {
 }
 .location:before {
    background:#C5D4C4;
-   height: 24px;
+   height: 21px;
    flex: 1;
    content: '';
    border-radius: 0px 100px 100px 0;
+   margin-right: 40px;
 }
 .location.left:after {
    background: none;
@@ -157,12 +164,11 @@ body {
    background: none;
 }
 
-
-
-
 .location-info {
    color:#F8F3EB;
 }
+
+
 
 .directions {
    background-color: #C5D4C4;
@@ -189,7 +195,16 @@ body {
  }
 
  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 601x) {
+   .main {
+      font-size: 40px;
+   }
+   .location:before {
+      height: 35px;
+   }
+   .drinks:after {
+      height: 35px;
+   }
    h2.menu {
       font-size: 30px;
    }
@@ -199,17 +214,28 @@ body {
    div.column {
      font-size: 30px;
    }
+
  }
  
  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
- @media screen and (max-width: 375px) {
+ @media screen and (max-width: 600px) {
+    .main {
+       font-size: 40px;
+    }
+   .location:before {
+      height: 21px;
+   }
+   .drinks:after {
+      height:21px;
+   }
+
    h2.menu {
-      font-size: 25px;
+      font-size: 35px;
    }
    h3.drinks {
-      font-size: 20px;
+      font-size: 30px;
    }
    div.column {
-     font-size: 20px;
+     font-size: 30px;
    }
  }
