@@ -1,0 +1,425 @@
+html {
+    --green: #274F3F;
+    --cream: #FEFAF6;
+    --brown: #C7BBAC;
+ }
+  
+body {
+    background-color: #274F3F;
+    color:#FEFAF6;
+    font-family: "le-monde-livre-std", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    height: 1265.94px;
+    min-height: 100vh;
+	  font-style: normal;
+}
+
+
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/* Color schemes */
+.demo-magneto {
+	--color-text: #41353d;
+	--color-background: #274F3F;
+	--color-link: #000;
+	--color-link-hover: #41353d;
+}
+
+
+.demo-playful {
+	--color-text: #fff;
+	--color-background: #00ecf0;
+	--color-link: #000;
+	--color-link-hover: #fffea2;
+}
+
+
+
+
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.js body.demo-kidnap {
+	transition: background-color 0.3s, opacity 0.3s;
+} 
+
+.js body.render {
+	opacity: 1;
+}
+
+
+@keyframes loaderAnim {
+	0% {
+		box-shadow: 20px 0 0 var(--color-text), -20px 0 0 transparent;
+		background: transparent;
+	}
+	50% {
+		box-shadow: 20px 0 0 transparent, -20px 0 0 transparent;
+		background: var(--color-text);
+	}
+	100% {
+		box-shadow: 20px 0 0 transparent, -20px 0 0 var(--color-text);
+		background: transparent;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: var(--color-link-hover);
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+/* Icons */
+.icon {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+main {
+	position: relative;
+    width: 100%;
+}
+
+.demo-kidnap main::before {
+	content: '';
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/noise.gif);
+	background-size: 300px;
+	opacity: 0.7;
+}
+
+.content {
+	position: relative;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	overflow: hidden;
+	min-height: 650px;
+	margin: 0 auto;
+}
+
+.content--fixed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: none;
+	z-index: 100;
+	align-content: space-between;
+	pointer-events: none;
+	padding: 1.5em;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto 4em;
+	grid-template-areas: 	"header tagline"
+							"deco tagline"
+							"deco demos";
+}
+
+.content--layout {
+	grid-template-columns: 100%;
+	padding: 3em 0;
+}
+
+.content--fixed a {
+	pointer-events: auto;
+}
+
+/* Header */
+.codrops-header {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	z-index: 100;
+	grid-area: header;
+	align-self: start;
+	justify-self: start;
+	align-items: center;
+}
+
+.codrops-header__title {
+	font-size: 1em;
+	padding: 0.75em 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+.info {
+	color: var(--color-link-hover);
+	margin: 0 0 0 1.25em;
+}
+
+.github {
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin: 0 0 2.5em;
+}
+
+.codrops-header__tagline,
+.deco {
+	grid-area: tagline;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	text-align: right;
+	align-self: start;
+	justify-self: end;
+	margin: 0;
+	padding: 0.85em 0;
+}
+
+.codrops-header__tagline {
+	padding: 0.65em 0;
+}
+
+.deco {
+	grid-area: deco;
+	align-self: end;
+	justify-self: start;
+	padding: 0;
+	transform: rotate(180deg);
+}
+
+.demos {
+	grid-area: demos;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+.demo {
+	margin: 0 0.15em;
+}
+
+.demo span {
+	text-transform: lowercase;
+	font-weight: bold;
+	pointer-events: none;
+	white-space: nowrap;
+}
+
+.demo span::before {
+	content: '#';
+}
+
+a.demo--current {
+	text-decoration: underline;
+	pointer-events: none;
+}
+
+/* Top Navigation Style */
+.codrops-links {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0 1em 0 0;
+}
+
+.codrops-icon {
+	display: inline-block;
+	margin: 0.15em;
+	padding: 0.25em;
+}
+
+/* Common styles for the words */
+.word {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.word--magneto {
+	font-size: 10vw;
+	font-family: 'ivymode', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #FEFAF6;
+	line-height: 0.8;
+	margin: 0 0 1em 0;
+}
+
+.word--magneto > span {
+	display: block;
+	padding: 1em 0 0;
+	cursor: default;
+	position: relative;
+}
+
+.word--magneto span span {
+	display: block;
+	pointer-events: none;
+}
+
+.word--magneto svg {
+	position: absolute;
+	left: 50%;
+	margin-left: -1.5vw;
+	width: 3vw;
+	bottom: calc(100% - 1em);
+}
+
+.word--magneto svg circle {
+	fill: currentColor;
+	opacity: 0;
+	transform-origin: 50% 50%;
+}
+
+
+
+
+
+@media screen and (min-width: 50em) {
+	.demos {
+		align-self: end;
+		justify-self: end;
+		display: flex;
+	}
+	.demo {
+		display: block;
+		border: 2px solid;
+		width: 12px;
+		height: 12px;
+		border-radius: 2px;
+		margin: 0 10px 0 0;
+	}
+	a.demo--current {
+		background: currentColor;
+	}
+	.demo span {
+		position: absolute;
+		display: none;
+		right: 100%;
+		top: -0.35em;
+		margin: 0 1em 0 0;
+	}
+	.demo--current span {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 50em) {
+	html, body {
+		overflow-x: hidden;
+		width: 100vw;
+		height: 100%;
+	}
+	.content {
+		height: auto;
+		min-height: 0;
+	}
+	.content--layout {
+		overflow: visible;
+	}
+	.demo-magneto .content--layout {
+		padding: 1em 0 0 0;
+	}
+	.content--fixed {
+		display: block;
+		z-index: 1000;
+		position: relative;
+		padding: 0.85em;
+	}
+
+	.deco {
+		display: none;
+	}
+	
+	.word.word--magneto {
+		font-size: 3em;
+	}
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--cream);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    left: 200px;
+    margin-top: 30px;
+    
+  }
+
+  
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--green);
+    display: block;
+    transition: 0.3s;
+    align-items: left;
+  }
+  
+.overlay a:hover, .overlay a:focus {
+    color: var(--brown);
+  }
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    
+  }
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
