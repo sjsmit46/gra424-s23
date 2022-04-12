@@ -52,7 +52,6 @@ body {
    color: #C5D4C4;
    font-weight: lighter;
    margin-top: .5em;
-   margin-left: 30px;
    position: relative;
    text-align: left;
 }
@@ -63,7 +62,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-left: 23px;
+   padding-left: 50px;
 }
 .drinks span {
    background: #fff;
@@ -89,8 +88,8 @@ body {
 .menu {
    color:#F8F3EB;
    gap: 1rem;
-   margin-left: 30px;
    padding-bottom: 35px;
+   padding-left: 50px;
 }
 
 
@@ -114,27 +113,46 @@ th, td {
 
 .all-drinks {
    color:#EFDCCB;
+   padding-bottom: 25px;
+   padding-left: 20px;
 }
 
 .espresso {
    color:#EFDCCB;
+   padding-bottom: 25px;
 }
+
+.milk-sub {
+   color:#EFDCCB;
+   padding-bottom: 25px;
+}
+
+
 
 .paninis {
    color:#EFDCCB;
+   padding-bottom: 25px;
+}
+
+
+
+.sizes {
+   color: #C5D4C4;
+   font-weight: bold;
+   padding-bottom: 25px;
+   padding-left: 40px;
 }
 
 .price {
    color: #C5D4C4;
    font-weight: bold;
+   padding-left: 40px;
 }
 
 .other-food {
    color:#EFDCCB;
+   padding-bottom: 25px;
 }
-
-
-
 
 
 
@@ -159,32 +177,62 @@ th, td {
 }
 .location.left:after {
    background: none;
+
 }
-.location.right:before {
-   background: none;
-}
+
+
+
+
+
+
 
 .location-info {
+   background-color:#494F41;
    color:#F8F3EB;
+   
 }
 
 
-
-.directions {
-   background-color: #C5D4C4;
-   border-radius: 19px;
-   color: #494F41;
-   font-weight: 700;
-}
 
 .map {
    size:50em;
 }
 
+.logo {
+   height:100px;
+}
+
+
+.button {
+   background-color: #C5D4C4;
+   border: none;
+   color: #494F41;
+   padding: 5px;
+   font-family: 'PT Sans', sans-serif;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 29px;
+   font-weight: 700;
+   margin: 4px 2px;
+   border-radius: 50px;
+ }
+ 
+
+ 
+
+
+
+
+
+
+
 .footer {
    background-color: #D2925F;
    color:#F8F3EB;
 }
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -203,7 +251,7 @@ th, td {
       height: 35px;
    }
    .drinks:after {
-      height: 35px;
+      height: 50px;
    }
    h2.menu {
       font-size: 30px;
@@ -222,9 +270,8 @@ th, td {
     .main {
        font-size: 40px;
     }
-   .location:before {
-      height: 21px;
-   }
+  
+  
    .drinks:after {
       height:21px;
    }
