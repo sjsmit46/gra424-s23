@@ -1,14 +1,14 @@
 html {
-    --blush: #EFDCCB;
-    --dark-green: #494F41;
-    --mint: #C5D4C4;
-    --orange: #D2925F;
-    --white: #F8F3EB;
- }
+   --blush: #EFDCCB;
+   --dark-green: #494F41;
+   --mint: #C5D4C4;
+   --orange: #D2925F;
+   --white: #F8F3EB;
+}
   
 body {
-    background-color: #494F41;
-    font-family: 'PT Sans', sans-serif;
+   background-color: #494F41;
+   font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -56,7 +56,7 @@ body {
    text-align: left;
 }
 
-
+/* menu columns */
 .drinks {
    color:#EFDCCB;
    display: flex;
@@ -70,7 +70,7 @@ body {
 }
 .drinks:after {
    background:#EFDCCB;
-   height: 21px;
+   height: 50px;
    flex: 1;
    content: '';
    border-radius: 100px 0 0 100px;
@@ -79,11 +79,6 @@ body {
 .drinks.left:after {
    background: none;
 }
-.drinks.right:before {
-   background: none;
-}
-
-
 
 .menu {
    color:#F8F3EB;
@@ -92,13 +87,11 @@ body {
    padding-left: 50px;
 }
 
-
 .column {
    color:#F8F3EB;
    float: left;
    width: 50%;
    padding: 1em;
-
 }
 
 th, td {
@@ -117,24 +110,13 @@ th, td {
    padding-left: 20px;
 }
 
-.espresso {
-   color:#EFDCCB;
-   padding-bottom: 25px;
-}
-
+.paninis,
+.other-food,
+.espresso,
 .milk-sub {
    color:#EFDCCB;
    padding-bottom: 25px;
 }
-
-
-
-.paninis {
-   color:#EFDCCB;
-   padding-bottom: 25px;
-}
-
-
 
 .sizes {
    color: #C5D4C4;
@@ -149,140 +131,233 @@ th, td {
    padding-left: 40px;
 }
 
-.other-food {
-   color:#EFDCCB;
-   padding-bottom: 25px;
-}
 
-
-
+/* location columns*/
 .location {
    color:#C5D4C4;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-right: 40px;
+   padding-right: 40px;
 }
+
 .location span {
    background: #fff;
    margin: 0 15px;
 }
+
 .location:before {
    background:#C5D4C4;
-   height: 21px;
+   height: 50px;
    flex: 1;
    content: '';
    border-radius: 0px 100px 100px 0;
    margin-right: 40px;
 }
+
 .location.left:after {
    background: none;
 
 }
 
-
-
-
-
-
-
 .location-info {
    background-color:#494F41;
    color:#F8F3EB;
-   
 }
-
-
-
 .map {
    size:50em;
 }
 
-.logo {
-   height:100px;
-}
-
-
+/* button for directions */
 .button {
    background-color: #C5D4C4;
    border: none;
    color: #494F41;
-   padding: 5px;
+   padding: 5px 32px;
    font-family: 'PT Sans', sans-serif;
    text-align: center;
    text-decoration: none;
+   transition-duration: 0.3s;
+   cursor: pointer;
    display: inline-block;
-   font-size: 29px;
-   font-weight: 700;
-   margin: 4px 2px;
+   font-size: 20px;
+   font-weight: 700; 
+   margin-left: 30px;
+   margin-bottom: 30px;
    border-radius: 50px;
- }
- 
+   
+}
 
- 
+.button:hover {
+  background-color: #D2925F;
+  color: #F8F3EB;
+}
 
 
-
-
-
+/*footer*/
+.logo {
+   margin-left: 4rem;
+   margin-top: 1rem;
+   width:40vw;
+}
 
 
 .footer {
    background-color: #D2925F;
-   color:#F8F3EB;
+   color: #F8F3EB;
+   font-size: 16px;
+   background: #D2925F;
+   padding: 2em 4em;
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   gap: 1em;
+}
+ 
+.footer ul {
+   list-style: none;
+}
+ 
+.col {
+   flex: 1;
+}
+ 
+.col-title {
+   color: #f8f3eb;
+   padding: 0.5em 0;
+}
+ 
+.col-list a {
+   color: #f8f3eb;
+   text-decoration: none;
+   margin-left: 1em;
 }
 
+.col-list a:hover,
+.col-list a:focus {
+   text-decoration: underline;
+}
+
+.social-media {
+   display: flex;
+   gap: 0.5em;
+   padding: 0.5em 0;
+}
+ 
+.form-title {
+   font-size: 1em;
+   color: #f8f3eb;
+}
+ 
+.social-media {
+   flex-direction: column;
+}
+ 
+.social-media-list {
+   display: flex;
+   gap: 0.5rem;
+}
+ 
+.social-media-list a {
+   padding: 0.5em;
+   color: #f8f3eb;
+   display: flex;
+   border-radius: 0.3em;
+   transition: all 0.25s ease 0s;
+}
+ 
+.social-media-list a:hover,
+.social-media-list a:focus {
+   color: #f8f3eb;
+   background: #494F41;
+}
+
+.social-media-list svg {
+   width: 3em;
+   height: 3em;
+   transition: all 0.25s ease 0s;
+}
+ 
 
 
 
-@media screen and (max-width: 600px) {
-   
-   .column {
-     width: 100%;
-   }
- }
 
- /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601x) {
-   .main {
-      font-size: 40px;
-   }
-   .location:before {
-      height: 35px;
-   }
-   .drinks:after {
-      height: 50px;
-   }
-   h2.menu {
+
+
+
+@media screen and (min-width: 375x) {
+   div.column {
       font-size: 30px;
    }
+
+   .drinks:after {
+      height: 21px;
+   }
+
    h3.drinks {
       font-size: 30px;
    }
-   div.column {
-     font-size: 30px;
+
+   h2.menu {
+      font-size: 30px;
    }
 
- }
- 
- /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
- @media screen and (max-width: 600px) {
-    .main {
-       font-size: 40px;
-    }
-  
+   .logo {
+      margin-left: 4rem;
+      margin-top: 1rem;
+      width:40vw;
+   }
+
+   .main {
+      font-size: 40px;
+   }
+
+  }
+
+
+ @media screen and (max-width: 768px) {
+   .button {
+      border-radius: 0 50px 50px 0;
+   }
+
+   .column {
+      width: 100%;
+   }
+
+   div.column {
+      font-size: 30px;
+   }
   
    .drinks:after {
       height:21px;
    }
 
-   h2.menu {
-      font-size: 35px;
-   }
    h3.drinks {
       font-size: 30px;
    }
-   div.column {
-     font-size: 30px;
+
+   h2.menu {
+      font-size: 35px;
    }
+
+   .footer {
+      padding: 2em;
+      flex-direction: column;
+   }
+
+   .location:before {
+      height: 21px;
+   }
+
+   .main {
+      font-size: 40px;
+   }
+
+   .social-media-list svg {
+      width: 4em;
+      height: 4em;
+   }
+
  }
+
+ 
