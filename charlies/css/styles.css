@@ -198,7 +198,7 @@ th, td {
 .logo {
    margin-left: 4rem;
    margin-top: 1rem;
-   width:40vw;
+   width:30vw;
 }
 
 
@@ -354,8 +354,8 @@ th, td {
    }
 
    .social-media-list svg {
-      width: 4em;
-      height: 4em;
+      width: 2em;
+      height: 2em;
    }
 
  }

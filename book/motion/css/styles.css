@@ -1,0 +1,190 @@
+html {
+    --green: #274F3F;
+    --cream: #FEFAF6;
+    --brown: #C7BBAC;
+ }
+  
+body {
+    background-color: #FEFAF6;
+    color:#274F3F;
+    font-family: 'ivymode', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    height: 1265.94px;
+    margin-top: 20px;
+}
+
+.name {
+    margin-top: 51rem;
+    padding: 2rem;
+    font-family: 'ivymode', sans-serif;
+	  font-weight: 900;
+}
+
+.welcome {
+    padding: 2rem;
+
+}
+
+.welcome-p {
+    font-family: "le-monde-livre-std";
+}
+
+.about {
+    padding:2rem;
+}
+
+.about-p {
+    font-family: "le-monde-livre-std";
+}
+
+.footer {
+    font-family: "le-monde-livre-std";
+    padding:2rem;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--cream);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    left: 200px;
+    margin-top: 30px;
+    
+  }
+
+  
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--green);
+    display: block;
+    transition: 0.3s;
+    align-items: left;
+  }
+  
+.overlay a:hover, .overlay a:focus {
+    color: var(--brown);
+  }
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    
+  }
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--green);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: var(--cream);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:var(--cream);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:var(--brown);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
