@@ -56,7 +56,7 @@ body {
 .main {
    color: #C5D4C4;
    font-weight: lighter;
-   font-size: 30pt;
+   font-size: 25pt;
    margin-top: .5em;
    position: relative;
    text-align: left;
@@ -70,7 +70,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-left: 80px;
+   padding-left: 150px;
 }
 .drinks span {
    background: #fff;
@@ -82,7 +82,7 @@ body {
    flex: 1;
    content: '';
    border-radius: 100px 0 0 100px;
-   margin-left:40px;
+   margin-left:43px;
 }
 .drinks.left:after {
    background: none;
@@ -93,16 +93,14 @@ body {
    gap: 1rem;
    font-size: 50pt;
    padding-bottom: 35px;
-   padding-left: 80px;
+   padding-left: 150px;
 }
 
 .column {
    color:#F8F3EB;
    float: left;
-   font-size: 30pt;
    width: 50%;
    padding: 1em;
-   padding-left: 40px;
 }
 
 .milk {
@@ -110,7 +108,7 @@ body {
 }
 
 th, td {
-   padding-left: 40px;
+   padding-left: 115px;
 }
 
 .row:after {
@@ -122,7 +120,6 @@ th, td {
 .all-drinks {
    color:#EFDCCB;
    padding-bottom: 25px;
-   padding-left: 40px;
 }
 
 .paninis,
@@ -319,11 +316,14 @@ th, td {
       font-size: 20pt;
    }
   
+   .drinks {
+      padding-left: 70px;
+   }
+
    .drinks:after {
       height:20px;
       padding-left: 40px;
    }
-
 
    .footer {
       padding: 2em;
@@ -348,7 +348,7 @@ th, td {
    }
 
    .menu {
-      
+      padding-left: 70px;
       font-size: 25pt;
    }
 
