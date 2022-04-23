@@ -12,6 +12,11 @@ body {
 }
 
 
+
+/* all of this controls it at a dekstop size, the media query changes it to mobile */
+
+
+
 .intro-text {
    position: absolute;
    margin-bottom: 4.6em;
@@ -70,7 +75,7 @@ body {
 }
 .drinks:after {
    background:#EFDCCB;
-   height: 50px;
+   height: 40px;
    flex: 1;
    content: '';
    border-radius: 100px 0 0 100px;
@@ -84,7 +89,7 @@ body {
    color:#F8F3EB;
    gap: 1rem;
    padding-bottom: 35px;
-   padding-left: 50px;
+   padding-left: 80px;
 }
 
 .column {
@@ -92,6 +97,10 @@ body {
    float: left;
    width: 50%;
    padding: 1em;
+}
+
+.milk {
+   padding-top: 0;
 }
 
 th, td {
@@ -148,7 +157,7 @@ th, td {
 
 .location:before {
    background:#C5D4C4;
-   height: 50px;
+   height: 20px;
    flex: 1;
    content: '';
    border-radius: 0px 100px 100px 0;
@@ -285,7 +294,7 @@ th, td {
 
 
 
-@media screen and (min-width: 375x) {
+/* @media screen and (min-width: 375px) {
    div.column {
       font-size: 30px;
    }
@@ -295,7 +304,7 @@ th, td {
    }
 
    h3.drinks {
-      font-size: 30px;
+      font-size: 60px;
    }
 
    h2.menu {
@@ -311,8 +320,7 @@ th, td {
    .main {
       font-size: 40px;
    }
-
-  }
+  } */
 
 
  @media screen and (max-width: 768px) {
@@ -329,7 +337,7 @@ th, td {
    }
   
    .drinks:after {
-      height:21px;
+      height:20px;
    }
 
    h3.drinks {
@@ -351,6 +359,10 @@ th, td {
 
    .main {
       font-size: 40px;
+   }
+
+   .menu {
+      padding-left: 40px;
    }
 
    .social-media-list svg {
