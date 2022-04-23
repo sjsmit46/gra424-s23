@@ -56,7 +56,7 @@ body {
 .main {
    color: #C5D4C4;
    font-weight: lighter;
-   font-size: 25pt;
+   font-size: 30px;
    margin-top: .5em;
    position: relative;
    text-align: left;
@@ -91,7 +91,7 @@ body {
 .menu {
    color:#F8F3EB;
    gap: 1rem;
-   font-size: 50pt;
+   font-size: 50px;
    padding-bottom: 35px;
    padding-left: 150px;
 }
@@ -190,6 +190,7 @@ th, td {
    background-color: #C5D4C4;
    border: none;
    color: #494F41;
+   visibility: hidden;
    padding: 5px 32px;
    font-family: 'PT Sans', sans-serif;
    text-align: center;
@@ -199,13 +200,38 @@ th, td {
    display: inline-block;
    font-size: 20px;
    font-weight: 700; 
-   margin-left: 30px;
+   margin-left: 150px;
    margin-bottom: 30px;
    border-radius: 50px;
    
 }
 
 .button:hover {
+   background-color: #D2925F;
+   color: #F8F3EB;
+ }
+ 
+
+.button2 {
+   background-color: #C5D4C4;
+   border: none;
+   color: #494F41;
+   visibility: visible;
+   padding: 5px 32px;
+   font-family: 'PT Sans', sans-serif;
+   text-align: center;
+   text-decoration: none;
+   transition-duration: 0.3s;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 20px;
+   font-weight: 700; 
+   margin-left: 150px;
+   margin-bottom: 30px;
+   border-radius: 50px;
+}
+
+.button2:hover {
   background-color: #D2925F;
   color: #F8F3EB;
 }
@@ -215,7 +241,7 @@ th, td {
 .logo {
    padding-left: 80px;
    margin-top: 1rem;
-   height: 131.74px;
+   height: 100%;
    width: 250px;
 }
 
@@ -225,7 +251,6 @@ th, td {
    color: #F8F3EB;
    font-size: 25px;
    background: #D2925F;
-   padding: 2em 4em;
    display: flex;
    align-items: start;
    justify-content: center;
@@ -305,7 +330,14 @@ th, td {
    }
 
    .button {
-      border-radius: 0 50px 50px 0;
+      border-radius: 0px 50px 50px 0px;
+      margin-left: 0;
+      padding: 5px 70px;
+      visibility: visible;
+   }
+
+   .button2 {
+      visibility: hidden;
    }
 
    .column {
@@ -318,6 +350,7 @@ th, td {
   
    .drinks {
       padding-left: 70px;
+      font-size: 20pt;
    }
 
    .drinks:after {
@@ -333,6 +366,7 @@ th, td {
 
    .location {
       padding-right: 55px;
+      font-size: 20pt;
    }
 
    .location:before {
@@ -344,7 +378,7 @@ th, td {
    } 
 
    .main {
-      font-size: 20pt;
+      font-size: 20px;
    }
 
    .menu {
