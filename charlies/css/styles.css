@@ -16,7 +16,6 @@ body {
 /* all of this controls it at a dekstop size, the media query changes it to mobile */
 
 
-
 .intro-text {
    position: absolute;
    margin-bottom: 4.6em;
@@ -39,6 +38,7 @@ body {
 .title {
    color: #EFDCCB;
    left:300px;
+   padding-bottom: .5em;
 
 }
 
@@ -56,10 +56,13 @@ body {
 .main {
    color: #C5D4C4;
    font-weight: lighter;
+   font-size: 30pt;
    margin-top: .5em;
    position: relative;
    text-align: left;
+
 }
+
 
 /* menu columns */
 .drinks {
@@ -67,7 +70,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-left: 50px;
+   padding-left: 80px;
 }
 .drinks span {
    background: #fff;
@@ -88,6 +91,7 @@ body {
 .menu {
    color:#F8F3EB;
    gap: 1rem;
+   font-size: 50pt;
    padding-bottom: 35px;
    padding-left: 80px;
 }
@@ -95,8 +99,10 @@ body {
 .column {
    color:#F8F3EB;
    float: left;
+   font-size: 30pt;
    width: 50%;
    padding: 1em;
+   padding-left: 40px;
 }
 
 .milk {
@@ -104,7 +110,7 @@ body {
 }
 
 th, td {
-   padding-left: 15px;
+   padding-left: 40px;
 }
 
 .row:after {
@@ -116,7 +122,7 @@ th, td {
 .all-drinks {
    color:#EFDCCB;
    padding-bottom: 25px;
-   padding-left: 20px;
+   padding-left: 40px;
 }
 
 .paninis,
@@ -147,8 +153,12 @@ th, td {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-right: 40px;
+   padding-right: 165px;
 }
+
+.direction {
+   padding-left: 80px;
+} 
 
 .location span {
    background: #fff;
@@ -157,7 +167,7 @@ th, td {
 
 .location:before {
    background:#C5D4C4;
-   height: 20px;
+   height: 40px;
    flex: 1;
    content: '';
    border-radius: 0px 100px 100px 0;
@@ -175,6 +185,7 @@ th, td {
 }
 .map {
    size:50em;
+
 }
 
 /* button for directions */
@@ -205,16 +216,17 @@ th, td {
 
 /*footer*/
 .logo {
-   margin-left: 4rem;
+   padding-left: 80px;
    margin-top: 1rem;
-   width:30vw;
+   height: 131.74px;
+   width: 250px;
 }
 
 
 .footer {
    background-color: #D2925F;
    color: #F8F3EB;
-   font-size: 16px;
+   font-size: 25px;
    background: #D2925F;
    padding: 2em 4em;
    display: flex;
@@ -233,13 +245,12 @@ th, td {
  
 .col-title {
    color: #f8f3eb;
-   padding: 0.5em 0;
 }
  
 .col-list a {
    color: #f8f3eb;
    text-decoration: none;
-   margin-left: 1em;
+   margin-left: 0;
 }
 
 .col-list a:hover,
@@ -254,7 +265,6 @@ th, td {
 }
  
 .form-title {
-   font-size: 1em;
    color: #f8f3eb;
 }
  
@@ -282,8 +292,8 @@ th, td {
 }
 
 .social-media-list svg {
-   width: 3em;
-   height: 3em;
+   width: 1.875em;
+   height: 1.875em;
    transition: all 0.25s ease 0s;
 }
  
@@ -291,7 +301,72 @@ th, td {
 
 
 
+ @media screen and (max-width: 768px) {
 
+   .all-drinks {
+      padding-left: 40px;
+   }
+
+   .button {
+      border-radius: 0 50px 50px 0;
+   }
+
+   .column {
+      width: 100%;
+   }
+
+   div.column {
+      font-size: 20pt;
+   }
+  
+   .drinks:after {
+      height:20px;
+      padding-left: 40px;
+   }
+
+
+   .footer {
+      padding: 2em;
+      flex-direction: column;
+      font-size: 14px;
+   }
+
+   .location {
+      padding-right: 55px;
+   }
+
+   .location:before {
+      height: 20px;
+   }
+
+   .direction {
+      padding-left: 40px;
+   } 
+
+   .main {
+      font-size: 20pt;
+   }
+
+   .menu {
+      
+      font-size: 25pt;
+   }
+
+   .social-media-list svg {
+      width: 3.125em;
+      height: 3.125em;
+   }
+
+   th, td {
+      padding-left: 40px;
+   }
+
+   .logo {
+      padding-left: 40px;
+      height: 65.87px;
+   }
+
+}
 
 
 /* @media screen and (min-width: 375px) {
@@ -321,55 +396,5 @@ th, td {
       font-size: 40px;
    }
   } */
-
-
- @media screen and (max-width: 768px) {
-   .button {
-      border-radius: 0 50px 50px 0;
-   }
-
-   .column {
-      width: 100%;
-   }
-
-   div.column {
-      font-size: 30px;
-   }
-  
-   .drinks:after {
-      height:20px;
-   }
-
-   h3.drinks {
-      font-size: 30px;
-   }
-
-   h2.menu {
-      font-size: 35px;
-   }
-
-   .footer {
-      padding: 2em;
-      flex-direction: column;
-   }
-
-   .location:before {
-      height: 21px;
-   }
-
-   .main {
-      font-size: 40px;
-   }
-
-   .menu {
-      padding-left: 40px;
-   }
-
-   .social-media-list svg {
-      width: 2em;
-      height: 2em;
-   }
-
- }
 
  
