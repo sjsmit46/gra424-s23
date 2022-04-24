@@ -12,7 +12,7 @@ body {
     font-style: normal;
     height: 1265.94px;
     min-height: 100vh;
-	  font-style: normal;
+	font-style: normal;
 	margin-left: 30px;
 	margin-top: 20px;
 }
@@ -24,6 +24,13 @@ body {
 	text-transform: uppercase;
 	line-height: 0.8;
 	text-align: center;
+	margin-top: 3rem;
+}
+
+.footer {
+	font-family: "le-monde-livre-std";
+	font-weight: 500;
+	padding:2rem;
 }
 
 
@@ -146,36 +153,8 @@ main {
 	pointer-events: auto;
 }
 
-/* Header */
-.codrops-header {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	z-index: 100;
-	grid-area: header;
-	align-self: start;
-	justify-self: start;
-	align-items: center;
-}
 
-.codrops-header__title {
-	font-size: 1em;
-	padding: 0.75em 0;
-	margin: 0;
-	font-weight: normal;
-}
 
-.info {
-	color: var(--color-link-hover);
-	margin: 0 0 0 1.25em;
-}
-
-.github {
-	display: inline-block;
-	vertical-align: text-bottom;
-	margin: 0 0 2.5em;
-}
 
 .codrops-header__tagline,
 .deco {
@@ -265,7 +244,6 @@ a.demo--current {
 	font-size: 10vw;
 	font-family: 'ivymode', sans-serif;
 	font-weight: 600;
-	text-transform: uppercase;
 	color: #FEFAF6;
 	line-height: 0.8;
 	margin: 0 0 0 0;
@@ -273,11 +251,11 @@ a.demo--current {
 }
 
 
-
 .word--magneto > span {
 	display: block;
-	padding: 1em 0 0;
+
 	cursor: default;
+	margin-top: 0em;
 	position: relative;
 }
 
@@ -291,7 +269,7 @@ a.demo--current {
 	left: 50%;
 	margin-left: -1.5vw;
 	width: 3vw;
-	bottom: calc(100% - 1em);
+	bottom: calc(100%);
 }
 
 .word--magneto svg circle {
@@ -375,7 +353,7 @@ a.demo--current {
     background-color: var(--cream);
     overflow-x: hidden;
     transition: 0.5s;
-  }
+}
   
 .overlay-content {
     position: relative;
@@ -385,7 +363,7 @@ a.demo--current {
     left: 200px;
     margin-top: 30px;
     
-  }
+}
 
   
 .overlay a {
@@ -396,18 +374,18 @@ a.demo--current {
     display: block;
     transition: 0.3s;
     align-items: left;
-  }
+}
   
 .overlay a:hover, .overlay a:focus {
     color: var(--brown);
-  }
+}
   
 .overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
+}
   
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -421,6 +399,8 @@ a.demo--current {
 
   
 .footer {
+	margin-top: 30rem;
 	font-family: "le-monde-livre-std";
+	font-weight: 500;
 	padding:2rem;
 }
