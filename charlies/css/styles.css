@@ -11,11 +11,6 @@ body {
    font-family: 'PT Sans', sans-serif;
 }
 
-
-
-/* all of this controls it at a dekstop size, the media query changes it to mobile */
-
-
 .intro-text {
    position: absolute;
    margin-bottom: 4.6em;
@@ -39,7 +34,6 @@ body {
    color: #EFDCCB;
    left:300px;
    padding-bottom: .5em;
-
 }
 
 .info {
@@ -60,9 +54,7 @@ body {
    margin-top: .5em;
    position: relative;
    text-align: left;
-
 }
-
 
 /* menu columns */
 .drinks {
@@ -107,9 +99,26 @@ body {
    padding-top: 0;
 }
 
+
 th, td {
    padding-left: 115px;
 }
+
+.row {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.directions {
+   margin-top: 0;
+}
+
+.address {
+   margin-top: 0;
+   padding-top: 35px;
+   
+}
+
 
 .row:after {
    content: "";
@@ -152,10 +161,7 @@ th, td {
    justify-content: center;
    padding-right: 165px;
 }
-
-.direction {
-   padding-left: 80px;
-} 
+ 
 
 .location span {
    background: #fff;
@@ -180,10 +186,10 @@ th, td {
    background-color:#494F41;
    color:#F8F3EB;
 }
-.map {
-   size:50em;
-   padding-right: 165px;
 
+.map {
+   size:100%;
+   
 }
 
 /* button for directions */
@@ -201,31 +207,28 @@ th, td {
    display: inline-block;
    font-size: 20px;
    font-weight: 700; 
-   margin-left: 150px;
    margin-bottom: 30px;
    border-radius: 50px;
-   
 }
 
 .button:hover {
    background-color: #D2925F;
    color: #F8F3EB;
- }
+}
  
-
 .button2 {
    background-color: #C5D4C4;
    border: none;
    color: #494F41;
    visibility: visible;
-   padding: 5px 32px;
+   padding: 1px 45px;
    font-family: 'PT Sans', sans-serif;
    text-align: center;
    text-decoration: none;
    transition-duration: 0.3s;
    cursor: pointer;
    display: inline-block;
-   font-size: 20px;
+   font-size: 30px;
    font-weight: 700; 
    margin-left: 150px;
    margin-bottom: 85px;
@@ -268,6 +271,7 @@ th, td {
  
 .col-title {
    color: #f8f3eb;
+   font-size: 25px;
 }
  
 .col-list a {
@@ -327,14 +331,14 @@ th, td {
 
 
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
    .all-drinks {
       padding-left: 40px;
    }
 
    .button {
-      border-radius: 0px 50px 50px 0px;
+      border-radius: 50px 0px 0px 50px;
       margin-left: 0;
       padding: 5px 70px;
       visibility: visible;
@@ -377,7 +381,7 @@ th, td {
       height: 20px;
    }
 
-   .direction {
+   .directions {
       padding-left: 40px;
    } 
 
@@ -386,13 +390,21 @@ th, td {
    }
 
    .map {
-      padding-right: 55px;
-
+      padding-right: 35px;
    }
 
    .menu {
       padding-left: 70px;
       font-size: 25pt;
+   }
+
+   .ofood {
+      padding-top: 0;
+   }
+
+   .row {
+      padding-top: 10px;
+      padding-bottom: 10px;
    }
 
    .social-media-list svg {
