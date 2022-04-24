@@ -5,17 +5,20 @@ html {
  }
   
 body {
-    background-color: #274F3F;
     color:#FEFAF6;
+	background-color: #274F3F;
+	transition: 1s ease;
     font-family: "le-monde-livre-std", sans-serif;
     font-weight: 600;
     font-style: normal;
-    height: 1265.94px;
     min-height: 100vh;
 	font-style: normal;
 	margin-left: 30px;
 	margin-top: 20px;
+	transition: #274f3f 1s ease;
 }
+
+
 
 .program-book {
 	font-size: 3vw;
