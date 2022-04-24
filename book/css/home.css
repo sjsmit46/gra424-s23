@@ -30,12 +30,22 @@ body {
 	margin-top: 3rem;
 }
 
-.footer {
+.footer-header {
 	font-family: "le-monde-livre-std";
 	font-weight: 500;
-	padding:2rem;
+	font-size: 14px;
+	padding-top: 350px;
+}
+.copyright {
+	font-size: 12px;
 }
 
+.footer-header2 {
+	display: none;
+}
+.copyright2 {
+	display: none;
+}
 
 *::after,
 *::before {
@@ -92,32 +102,14 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Icons */
-.icon {
-	display: block;
-	width: 1.5em;
-	height: 1.5em;
-	margin: 0 auto;
-	fill: currentColor;
-}
+
 
 main {
 	position: relative;
     width: 100%;
 }
 
-.demo-kidnap main::before {
-	content: '';
-	position: fixed;
-	pointer-events: none;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url(../img/noise.gif);
-	background-size: 300px;
-	opacity: 0.7;
-}
+
 
 .content {
 	position: relative;
@@ -279,74 +271,6 @@ a.demo--current {
 	transform-origin: 50% 50%;
 }
 
-
-
-@media screen and (min-width: 50em) {
-	.demos {
-		align-self: end;
-		justify-self: end;
-		display: flex;
-	}
-	
-	.demo {
-		display: block;
-		border: 2px solid;
-		width: 12px;
-		height: 12px;
-		border-radius: 2px;
-		margin: 0 10px 0 0;
-	}
-	a.demo--current {
-		background: currentColor;
-	}
-	.demo span {
-		position: absolute;
-		display: none;
-		right: 100%;
-		top: -0.35em;
-		margin: 0 1em 0 0;
-	}
-	.demo--current span {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 50em) {
-	
-	.content {
-		height: auto;
-		min-height: 0;
-		
-	}
-	.content--layout {
-		overflow: visible;
-		
-	}
-
-	.demo-magneto .content--layout {
-		padding: 1em 0 0 0;
-	}
-	.content--fixed {
-		display: block;
-		z-index: 1000;
-		position: relative;
-		padding: 0.85em;
-	}
-
-	.deco {
-		display: none;
-	}
-	
-	.word.word--magneto {
-		margin-top: 3em;
-		font-size: 3em;
-	}
-
-	.program-book {
-		margin-top: 1.5em;
-	}
-}
-
 .overlay {
     height: 100%;
     width: 0;
@@ -390,6 +314,73 @@ a.demo--current {
     right: 45px;
     font-size: 60px;
 }
+
+
+@media screen and (min-width: 50em) {
+	.demos {
+		align-self: end;
+		justify-self: end;
+		display: flex;
+	}
+	
+	.demo {
+		display: block;
+		border: 2px solid;
+		width: 12px;
+		height: 12px;
+		border-radius: 2px;
+		margin: 0 10px 0 0;
+	}
+	a.demo--current {
+		background: currentColor;
+	}
+	.demo span {
+		position: absolute;
+		display: none;
+		right: 100%;
+		top: -0.35em;
+		margin: 0 1em 0 0;
+	}
+	.demo--current span {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 50em) {
+	
+	.content {
+		height: auto;
+		min-height: 0;
+		margin-bottom: 0;
+	}
+	.content--layout {
+		overflow: visible;
+		margin-bottom: 0;
+	}
+	.demo-magneto .content--layout {
+		padding: 1em 0 0 0;
+	}
+	.content--fixed {
+		display: block;
+		z-index: 1000;
+		position: relative;
+		padding: 0.85em;
+		margin-bottom: 0;
+	}
+
+	.deco {
+		display: none;
+	}
+
+	.word.word--magneto {
+		margin-top: 3em;
+		font-size: 3em;
+	}
+
+	.program-book {
+		margin-top: 1.5em;
+	}
+}
   
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -398,13 +389,29 @@ a.demo--current {
     top: 15px;
     right: 35px;
     }
-  }
+}
 
-
-  
-.footer {
-	margin-top: 30rem;
+@media screen and (min-width: 768px) {
+	.footer {
+		padding: 2rem;
+	}
+	.footer-header2 {
+	display: contents;
 	font-family: "le-monde-livre-std";
 	font-weight: 500;
+	font-size: 20px; 
 	padding:2rem;
+	}
+	.footer-header {
+		display: none;
+	}
+
+	.copyright {
+	font-size: 16px;
+	}
+
+	.copyright2 {
+		display: contents;
+		font-size: 16px;
+	}
 }
