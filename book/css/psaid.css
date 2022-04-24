@@ -60,18 +60,24 @@ body {
   margin: auto;
 }
 
-.footer {
-  font-family: "le-monde-livre-std";
-  font-size: 14px;
-  margin-top:3rem;
-  margin-left: 2rem;
-  padding-bottom: 2em;
+.footer-header {
+	font-family: "le-monde-livre-std";
+	font-weight: 500;
+	font-size: 14px;
+	padding-top: 350px;
+}
+.copyright {
+	font-size: 12px;
+  font-weight: 500;
 }
 
-.copyright {
-  font-size: 12px;
-  margin-top: .5rem;
+.footer-header2 {
+	display: none;
 }
+.copyright2 {
+	visibility: hidden;
+}
+
 
 /* navigation bar */
 
@@ -238,7 +244,6 @@ body {
   .final-header {
     margin-left: 6rem;
   }
-  
 
   .image-grid {
     visibility: visible;
@@ -260,8 +265,29 @@ body {
   }
 
   .footer {
-    margin-left: 6rem;
-  }
+		padding: 2rem;
+	}
+	.footer-header2 {
+	display: contents;
+	font-family: "le-monde-livre-std";
+	font-weight: 500;
+	font-size: 20px; 
+	padding:2rem;
+	}
+  
+	.footer-header {
+		display: none;
+	}
+
+	.copyright {
+	font-size: 16px;
+  font-weight: 500;
+	}
+
+	.copyright2 {
+		display: contents;
+		font-size: 16px;
+	}
 }
 
 

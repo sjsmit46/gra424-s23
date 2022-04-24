@@ -44,7 +44,7 @@ body {
 	display: none;
 }
 .copyright2 {
-	display: none;
+	visibility: hidden;
 }
 
 *::after,
@@ -408,6 +408,7 @@ a.demo--current {
 
 	.copyright {
 	font-size: 16px;
+	font-weight: 500;
 	}
 
 	.copyright2 {
