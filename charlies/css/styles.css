@@ -65,10 +65,13 @@ h3  {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-left: 150px;
 }
+
 .drinks span {
    background: #fff;
    margin: 0 15px;
+
 }
 .drinks:after {
    background:#EFDCCB;
@@ -76,7 +79,7 @@ h3  {
    flex: 1;
    content: '';
    border-radius: 100px 0 0 100px;
-   margin-left:43px;
+   margin-left:70px;
 }
 .drinks.left:after {
    background: none;
@@ -117,11 +120,13 @@ h3  {
    content: "";
    display: table;
    clear: both;
+
 }
 
 .all-drinks {
    color:#EFDCCB;
    padding-bottom: 25px;
+   
 }
 
 .paninis,
@@ -151,7 +156,7 @@ h3  {
 .address {
    margin-top: 0;
    padding-top: 35px;
-   padding-left: 40px;
+   margin-left: 0;
 }
 
 .location {
@@ -174,7 +179,7 @@ h3  {
    flex: 1;
    content: '';
    border-radius: 0px 100px 100px 0;
-   margin-right: 40px;
+   margin-right: 70px;
 }
 
 .location.left:after {
@@ -535,7 +540,6 @@ footer .location {
    }
 
 
-
    .desktop-footer {
       display: none;
    }
@@ -570,6 +574,7 @@ footer .location {
 
    .map {
       padding-right: 35px;
+      padding-left: 20px;
    }
 
    .menu {
