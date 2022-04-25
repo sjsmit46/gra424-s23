@@ -157,6 +157,7 @@ h3  {
    margin-top: 0;
    padding-top: 35px;
    margin-left: 0;
+   margin-bottom: 0;
 }
 
 .location {
@@ -574,7 +575,7 @@ footer .location {
 
    .map {
       padding-right: 35px;
-      padding-left: 20px;
+      padding-left: 40px;
    }
 
    .menu {
