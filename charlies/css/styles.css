@@ -241,48 +241,45 @@ th, td {
 }
 
 
-/*footer*/
-.logo {
-   padding-left: 150px;
-   margin-top: 1rem;
-   height: 100%;
-   width: 250px;
-}
 
-
-.footer {
+/* .footer {
    background-color: #D2925F;
    color: #F8F3EB;
    font-size: 25px;
    background: #D2925F;
    display: flex;
    align-items: start;
-   justify-content: center;
    gap: 1em;
 }
- 
-.footer ul {
-   list-style: none;
+
+.mobile-footer {
+   display: none;
 }
- 
-.col {
-   flex: 1;
-}
- 
-.col-title {
-   color: #f8f3eb;
-   font-size: 25px;
-}
- 
-.col-list a {
-   color: #f8f3eb;
-   text-decoration: none;
-   margin-left: 0;
+.fcolumn {
+   float: left;
+   width: 33.33%;
 }
 
-.col-list a:hover,
-.col-list a:focus {
-   text-decoration: underline;
+.logo {
+   width: 250px;
+   margin-left: 150px;
+   padding-top: 1.5em;
+   padding-bottom: 1em;
+}
+
+.desktop-footer:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.col {
+   color:#F8F3EB;
+   flex: 1;
+}
+
+.footer ul {
+   list-style: none;
 }
 
 .social-media {
@@ -297,7 +294,6 @@ th, td {
  
 .social-media {
    flex-direction: column;
-   margin-left: 150px;
 }
  
 .social-media-list {
@@ -313,7 +309,6 @@ th, td {
    transition: all 0.25s ease 0s;
 
 }
- 
 .social-media-list a:hover,
 .social-media-list a:focus {
    color: #f8f3eb;
@@ -324,9 +319,181 @@ th, td {
    width: 1.875em;
    height: 1.875em;
    transition: all 0.25s ease 0s;
-
+} 
+ 
+.col-title {
+   color: #f8f3eb;
+   font-size: 25px;
 }
  
+.col-list a {
+   color: #f8f3eb;
+   text-decoration: none;
+   margin-left: 0;
+}
+
+.col-list a:hover,
+.col-list a:focus {
+   text-decoration: underline;
+} */
+
+/* 
+.footer {
+   background-color: #D2925F;
+   color: #F8F3EB;
+   font-size: 25px;
+   background: #D2925F;
+   display: flex;
+   align-items: start;
+   gap: 1em;
+}
+
+.footer-col a {
+   color: #F8F3EB;
+ }
+ 
+ .content {
+   height: 80vh;
+   background: #ccc;
+ }
+ 
+ .footer-content-wrapper {
+   width: 80%;
+   margin: 1em auto;  
+ }
+ 
+ .footer-col {
+   display: inline-block;
+   padding: 0.5em 0.1em 0.5em 1em;
+   box-sizing: border-box;
+  
+ }
+ .footer-col:nth-child(4) {
+   border: none;
+ }
+ 
+ .ta-l {
+   text-align: left;
+ }
+ .flt {
+   float: left;
+ }
+ 
+ .flt:nth-child(4):after {
+    content: " "; 
+    visibility: hidden; 
+    display: block; 
+    height: 1em; 
+    clear: both;
+ }
+ 
+ .large-25 {
+   width: 25%;
+ }
+ 
+ .footer-col a {
+   display: block;
+   margin: 0.3em 0;
+ }
+  */
+ 
+.desktop-footer {
+   background-color: #D2925F;
+}
+
+footer section.container {
+   margin: auto;
+   padding-top: 2rem;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.logo {
+   width: 250px;
+   margin-left: 150px;
+   padding-bottom: 1em;
+}
+
+footer .logo img:hover {
+   cursor: pointer;
+}
+
+footer .links {
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 2;
+   justify-content: space-evenly;
+}
+
+footer .links ul li {
+   padding: .5rem;
+}
+
+footer .links ul li:hover {
+   cursor: pointer;
+}
+
+footer .links ul .heading:hover {
+   cursor: text;
+}
+
+footer .social {
+   flex-grow: 1;
+   
+}
+
+footer .social ul {
+   display: flex;
+   justify-content: center;
+}
+
+footer .social ul li {
+   width: 4.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .social ul li:hover {
+   cursor: pointer;
+}
+
+footer .location {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   font-size: 1.2rem;
+}
+
+.heading {
+   font-size: 25px;
+}
+
+.contact {
+   color: #f8f3eb;
+   font-size: 25px;
+   margin-right: 100px;
+}
+
+.handle {
+   color: #f8f3eb;
+   font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,6 +519,10 @@ th, td {
       width: 100%;
    }
 
+   .desktop-footer {
+      display: none;
+   }
+
    div.column {
       font-size: 20pt;
    }
@@ -366,11 +537,7 @@ th, td {
       padding-left: 40px;
    }
 
-   .footer {
-      padding: 2em;
-      flex-direction: column;
-      font-size: 14px;
-   }
+
 
    .location {
       padding-right: 55px;
@@ -397,6 +564,9 @@ th, td {
       padding-left: 70px;
       font-size: 25pt;
    }
+   .mobile-footer {
+      display: contents;
+   }
 
    .ofood {
       padding-top: 0;
@@ -407,18 +577,8 @@ th, td {
       padding-bottom: 10px;
    }
 
-   .social-media-list svg {
-      width: 3.125em;
-      height: 3.125em;
-   }
-
    th, td {
       padding-left: 40px;
-   }
-
-   .logo {
-      padding-left: 40px;
-      height: 65.87px;
    }
 
 }
