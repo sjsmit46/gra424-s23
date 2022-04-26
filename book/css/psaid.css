@@ -39,7 +39,7 @@ td {
 }
 
 
-.final {
+.final-image {
   font-family: 'ivymode';
   font-weight: 600;
 }
@@ -58,7 +58,7 @@ td {
   margin-left: 2rem;
 }
 
-.final-psaid {
+.final-image {
   max-width: 500px;
   margin: auto;
 }
@@ -68,7 +68,7 @@ td {
 	font-weight: 500;
 	font-size: 14px;
   margin-left: 2rem;
-	padding-top: 350px;
+	padding-top: 2rem;
 }
 .copyright {
 	font-size: 12px;
@@ -241,7 +241,7 @@ td {
     display: none;
   }
 
-  .final-psaid {
+  .final-image {
     max-width: 591px;
     margin-left: 6rem;
   }
@@ -266,30 +266,30 @@ td {
     margin-left: 6rem;
   }
 
-  .footer {
-		padding: 2rem;
-	}
 	.footer-header2 {
-	display: contents;
-	font-family: "le-monde-livre-std";
-	font-weight: 500;
-	font-size: 20px; 
-	padding:2rem;
+	  display: contents;
+	  font-family: "le-monde-livre-std";
+	  font-weight: 500;
+  	font-size: 20px; 
+  	padding-top: 2rem;
+    padding-left: 4rem;
 	}
   
 	.footer-header {
 		display: none;
 	}
 
-	.copyright {
-	font-size: 16px;
-  font-weight: 500;
-	}
-
-	.copyright2 {
+  .copyright2 {
 		display: contents;
 		font-size: 16px;
+    padding-left: 2rem;
 	}
+  
+	.copyright {
+	  font-size: 16px;
+    font-weight: 500;
+	}
+
 }
 
 
