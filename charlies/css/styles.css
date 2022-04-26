@@ -39,23 +39,19 @@ body {
    display:block;
    visibility: visible;
 }
-
 .title {
    color: #EFDCCB;
    left:300px;
    padding-bottom: .5em;
 }
-
 .info {
    left:300px;
 }
-
 .hours {
    color: #EFDCCB;
    font-weight: 700;
    left:300px;
 }
-
 .main {
    color: #C5D4C4;
    font-weight: lighter;
@@ -64,7 +60,6 @@ body {
    position: relative;
    text-align: left;
 }
-
 
 /* menu columns */
 .drinks {
@@ -99,8 +94,6 @@ body {
    padding-bottom: 35px;
    padding-left: 150px;
 }
-
-
 .column {
    color:#F8F3EB;
    float: left;
@@ -108,34 +101,26 @@ body {
    padding: 1em 0;
    padding-left: 150px;
 }
-
 .milk {
    padding-top: 0;
 }
-
-
 .row {
    padding-top: 20px;
    padding-bottom: 20px;
 }
-
 .directions {
    margin-top: 0;
 }
-
 .row:after {
    content: "";
    display: table;
    clear: both;
-
 }
-
 .all-drinks {
    color:#EFDCCB;
    padding-bottom: 25px;
    
 }
-
 .paninis,
 .other-food,
 .espresso,
@@ -143,21 +128,17 @@ body {
    color:#EFDCCB;
    padding-bottom: 25px;
 }
-
 .sizes {
    color: #C5D4C4;
    font-weight: bold;
    padding-bottom: 25px;
    padding-left: 40px;
 }
-
 .price {
    color: #C5D4C4;
    font-weight: bold;
    padding-left: 40px;
 }
-
-
 /* location columns*/
 .address {
    margin-top: 0;
@@ -285,7 +266,6 @@ section.container {
 }
 .links ul li {
    padding: .5rem;
-   
 }
 
 .handle {
@@ -333,7 +313,6 @@ a {
 
 
 @media screen and (max-width: 768px) {
-
    .cup {
       display: none;
    }
@@ -344,7 +323,6 @@ a {
       display: block;
       visibility: visible;
    }
-
    .intro-text2 {
       position: absolute;
       margin-bottom: 2.8em;
@@ -354,10 +332,8 @@ a {
       font-size:20px;
       line-height: 140%;
    }
-
    .mobile-cup {
       display: block;
-
    }
    .title2 {
       color: #EFDCCB;
@@ -394,6 +370,19 @@ a {
       width: 100%;
       padding-left: 70px;
    }
+   .contact {
+      font-size: 16px;
+   }
+   .links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+      justify-content: space-evenly;
+   }
+   .links ul li {
+      padding: 1rem;
+   }
 
 
    .desktop-footer {
@@ -417,37 +406,56 @@ a {
    .location {
       padding-right: 55px;
       font-size: 20pt;
-
    }
-
    .location:before {
       height: 20px;
    }
-   
-  
-   
    .main {
       font-size: 20px;
    }
-
    .map {
       padding-right: 35px;
       padding-left: 40px;
    }
-
    .menu {
       padding-left: 70px;
       font-size: 25pt;
    }
-   .mobile-footer {
+
+   
+   section.container {
       background-color: #D2925F;
+   }
+   .mobile-footer {
       display: contents;
    }
+   .logo {
+      width: 250px;
+      margin-left: 0;
+      padding-bottom: 1em;
+   }
+   section.container {
+      margin: auto;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
+   .links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+      justify-content: space-evenly;
+   }
+   .links ul li {
+      padding: .5rem;
+   }
+
 
    .ofood {
       padding-top: 0;
    }
-
    .row {
       padding-top: 10px;
       padding-bottom: 10px;
