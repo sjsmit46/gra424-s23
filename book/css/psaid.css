@@ -29,11 +29,14 @@ body {
   font-size:15px;
 }
 
-.image-grid {
-  display: none;
+td {
+  padding-right: 4rem;
 }
 
 
+.image-grid {
+  display: none;
+}
 
 
 .final {
@@ -64,11 +67,13 @@ body {
 	font-family: "le-monde-livre-std";
 	font-weight: 500;
 	font-size: 14px;
+  margin-left: 2rem;
 	padding-top: 350px;
 }
 .copyright {
 	font-size: 12px;
   font-weight: 500;
+  margin-left: 2rem;
 }
 
 .footer-header2 {
@@ -237,7 +242,7 @@ body {
   }
 
   .final-psaid {
-    max-width: 500px;
+    max-width: 591px;
     margin-left: 6rem;
   }
 
@@ -248,13 +253,10 @@ body {
   .image-grid {
     visibility: visible;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    margin-left:6rem;
+    margin-right: 2rem;
   }
   
-  .image-grid img {
-    margin-left: 6rem;
-  }
 
   .slideshow-container {
     display: none;
