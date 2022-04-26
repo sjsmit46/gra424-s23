@@ -166,6 +166,7 @@ h3  {
    align-items: center;
    justify-content: center;
    padding-right: 165px;
+
 }
  
 
@@ -416,8 +417,12 @@ h3  {
 .desktop-footer {
    background-color: #D2925F;
 }
-
-footer section.container {
+.logo {
+   width: 250px;
+   margin-left: 150px;
+   padding-bottom: 1em;
+}
+section.container {
    margin: auto;
    padding-top: 2rem;
    display: flex;
@@ -425,78 +430,69 @@ footer section.container {
    flex-wrap: wrap;
 }
 
-.logo {
-   width: 250px;
-   margin-left: 150px;
-   padding-bottom: 1em;
-}
-
-footer .logo img:hover {
-   cursor: pointer;
-}
-
-footer .links {
+.links {
+   list-style: none;
    display: flex;
    flex-wrap: wrap;
    flex-grow: 2;
    justify-content: space-evenly;
+   
 }
-
-footer .links ul li {
+.links ul li {
    padding: .5rem;
-}
-
-footer .links ul li:hover {
-   cursor: pointer;
-}
-
-footer .links ul .heading:hover {
-   cursor: text;
-}
-
-footer .social {
-   flex-grow: 1;
    
 }
 
-footer .social ul {
+.handle {
+   color: #f8f3eb;
+   font-size: 25px;
+   text-decoration: none;
+   margin-left:230px;
+}
+
+.social {
+   flex-grow: 1;
+}
+
+.social ul {
    display: flex;
    justify-content: center;
 }
+a {
+   text-decoration: none;
+}
 
-footer .social ul li {
+.social ul li {
    width: 4.5rem;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-footer .social ul li:hover {
+.social ul li:hover {
    cursor: pointer;
 }
 
-footer .location {
+.location {
    width: 100%;
    display: flex;
    justify-content: flex-end;
-   font-size: 1.2rem;
+
+   list-style-type: none;
 }
 
 .heading {
    font-size: 25px;
+   text-decoration:none;
 }
 
 .contact {
    color: #f8f3eb;
    font-size: 25px;
-   margin-right: 100px;
+   margin-right: 150px;
 }
 
-.handle {
-   color: #f8f3eb;
-   font-size: 25px;
 
-}
 
 
 
@@ -522,6 +518,7 @@ footer .location {
       margin-right: 0;
       padding: 5px 30px;
       visibility: visible;
+      padding-right: 55px;
    }
 
    .button:after {
