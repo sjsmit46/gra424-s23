@@ -240,9 +240,7 @@ body {
    background-color: #D2925F;
 }
 
-.mobile-footer {
-   display: none;
-}
+
 .logo {
    width: 250px;
    margin-left: 150px;
@@ -332,9 +330,6 @@ a {
       font-size:20px;
       line-height: 140%;
    }
-   .mobile-cup {
-      display: block;
-   }
    .title2 {
       color: #EFDCCB;
       left:300px;
@@ -345,6 +340,10 @@ a {
       color: #EFDCCB;
       font-weight: 700;
       left:300px;
+   }
+
+   .main {
+      font-size: 20px;
    }
 
    .button {
@@ -365,34 +364,27 @@ a {
    .button2 {
       visibility: hidden;
    }
+   .menu {
+      padding-left: 70px;
+      font-size: 25pt;
+   }
 
+   .ofood {
+      padding-top: 0;
+   }
+
+   .row {
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
    .column {
       width: 100%;
       padding-left: 70px;
-   }
-   .contact {
-      font-size: 16px;
-   }
-   .links {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      flex-grow: 2;
-      justify-content: space-evenly;
-   }
-   .links ul li {
-      padding: 1rem;
-   }
-
-
-   .desktop-footer {
-      display: none;
    }
 
    div.column {
       font-size: 20pt;
    }
-  
    .drinks {
       padding-left: 70px;
       font-size: 20pt;
@@ -403,62 +395,21 @@ a {
       padding-left: 40px;
    }
 
-   .location {
-      padding-right: 55px;
-      font-size: 20pt;
-   }
-   .location:before {
-      height: 20px;
-   }
-   .main {
-      font-size: 20px;
-   }
    .map {
       padding-right: 35px;
       padding-left: 40px;
    }
-   .menu {
-      padding-left: 70px;
-      font-size: 25pt;
+
+   .location {
+      padding-right: 55px;
+      font-size: 20pt;
    }
 
+   .location:before {
+      height: 20px;
+   }
+  
    
-   section.container {
-      background-color: #D2925F;
-   }
-   .mobile-footer {
-      display: contents;
-   }
-   .logo {
-      width: 250px;
-      margin-left: 0;
-      padding-bottom: 1em;
-   }
-   section.container {
-      margin: auto;
-      padding-top: 2rem;
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-   }
-   .links {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      flex-grow: 2;
-      justify-content: space-evenly;
-   }
-   .links ul li {
-      padding: .5rem;
-   }
-
-
-   .ofood {
-      padding-top: 0;
-   }
-   .row {
-      padding-top: 10px;
-      padding-bottom: 10px;
-   }
+   
 }
 
