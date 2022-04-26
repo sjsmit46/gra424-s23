@@ -13,21 +13,31 @@ body {
 
 .intro-text {
    position: absolute;
-   margin-bottom: 4.6em;
+   margin-bottom: 7em;
    bottom: 20px;
    right: 20px;
    background-color: #494F41;
-   padding-left: 20px;
-   padding-right: 20px;
+   margin-left: 20px;
+   margin-right: 100px;
+   font-size:30px;
 }
 
 .intro {
    color:#F8F3EB;
    position:relative;
+   line-height: auto;
+}
+
+.intro2 {
+   display: none;
+   color:#F8F3EB;
+   position:relative;
+   line-height: auto;
 }
 
 .cup {
    display:block;
+   visibility: visible;
 }
 
 .title {
@@ -44,7 +54,6 @@ body {
    color: #EFDCCB;
    font-weight: 700;
    left:300px;
-  
 }
 
 .main {
@@ -56,9 +65,7 @@ body {
    text-align: left;
 }
 
-h3  {
 
-}
 /* menu columns */
 .drinks {
    color:#EFDCCB;
@@ -248,163 +255,6 @@ h3  {
   color: #F8F3EB;
 }
 
-
-
-/* .footer {
-   background-color: #D2925F;
-   color: #F8F3EB;
-   font-size: 25px;
-   background: #D2925F;
-   display: flex;
-   align-items: start;
-   gap: 1em;
-}
-
-.mobile-footer {
-   display: none;
-}
-.fcolumn {
-   float: left;
-   width: 33.33%;
-}
-
-.logo {
-   width: 250px;
-   margin-left: 150px;
-   padding-top: 1.5em;
-   padding-bottom: 1em;
-}
-
-.desktop-footer:after {
-   content: "";
-   display: table;
-   clear: both;
-}
-
-.col {
-   color:#F8F3EB;
-   flex: 1;
-}
-
-.footer ul {
-   list-style: none;
-}
-
-.social-media {
-   display: flex;
-   gap: 0.5em;
-   padding: 0.5em 0;
-}
- 
-.form-title {
-   color: #f8f3eb;
-}
- 
-.social-media {
-   flex-direction: column;
-}
- 
-.social-media-list {
-   display: flex;
-   gap: 0.5rem;
-}
- 
-.social-media-list a {
-   padding: 0.5em;
-   color: #f8f3eb;
-   display: flex;
-   border-radius: 0.3em;
-   transition: all 0.25s ease 0s;
-
-}
-.social-media-list a:hover,
-.social-media-list a:focus {
-   color: #f8f3eb;
-   background: #494F41;
-}
-
-.social-media-list svg {
-   width: 1.875em;
-   height: 1.875em;
-   transition: all 0.25s ease 0s;
-} 
- 
-.col-title {
-   color: #f8f3eb;
-   font-size: 25px;
-}
- 
-.col-list a {
-   color: #f8f3eb;
-   text-decoration: none;
-   margin-left: 0;
-}
-
-.col-list a:hover,
-.col-list a:focus {
-   text-decoration: underline;
-} */
-
-/* 
-.footer {
-   background-color: #D2925F;
-   color: #F8F3EB;
-   font-size: 25px;
-   background: #D2925F;
-   display: flex;
-   align-items: start;
-   gap: 1em;
-}
-
-.footer-col a {
-   color: #F8F3EB;
- }
- 
- .content {
-   height: 80vh;
-   background: #ccc;
- }
- 
- .footer-content-wrapper {
-   width: 80%;
-   margin: 1em auto;  
- }
- 
- .footer-col {
-   display: inline-block;
-   padding: 0.5em 0.1em 0.5em 1em;
-   box-sizing: border-box;
-  
- }
- .footer-col:nth-child(4) {
-   border: none;
- }
- 
- .ta-l {
-   text-align: left;
- }
- .flt {
-   float: left;
- }
- 
- .flt:nth-child(4):after {
-    content: " "; 
-    visibility: hidden; 
-    display: block; 
-    height: 1em; 
-    clear: both;
- }
- 
- .large-25 {
-   width: 25%;
- }
- 
- .footer-col a {
-   display: block;
-   margin: 0.3em 0;
- }
-  */
- 
 .desktop-footer {
    background-color: #D2925F;
 }
@@ -483,7 +333,43 @@ a {
 
 
 @media screen and (max-width: 768px) {
+
+   .cup {
+      display: none;
+   }
+   .intro {
+      display: none;
+   }
+   .intro2 {
+      display: block;
+      visibility: visible;
+   }
+
+   .intro-text2 {
+      position: absolute;
+      margin-bottom: 2.8em;
+      bottom: 20px;
+      right: 30px;
+      background-color: #494F41;
+      font-size:20px;
+      line-height: 140%;
+   }
+
+   .mobile-cup {
+      display: block;
+
+   }
+   .title2 {
+      color: #EFDCCB;
+      left:300px;
+      padding-bottom: .2em;
+   }
    
+   .hours2 {
+      color: #EFDCCB;
+      font-weight: 700;
+      left:300px;
+   }
 
    .button {
       border-radius: 50px 0px 0px 50px;
@@ -537,8 +423,9 @@ a {
    .location:before {
       height: 20px;
    }
-
-
+   
+  
+   
    .main {
       font-size: 20px;
    }
@@ -565,38 +452,5 @@ a {
       padding-top: 10px;
       padding-bottom: 10px;
    }
-
-
-
 }
 
-
-/* @media screen and (min-width: 375px) {
-   div.column {
-      font-size: 30px;
-   }
-
-   .drinks:after {
-      height: 21px;
-   }
-
-   h3.drinks {
-      font-size: 60px;
-   }
-
-   h2.menu {
-      font-size: 30px;
-   }
-
-   .logo {
-      margin-left: 4rem;
-      margin-top: 1rem;
-      width:40vw;
-   }
-
-   .main {
-      font-size: 40px;
-   }
-  } */
-
- 
