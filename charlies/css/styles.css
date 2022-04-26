@@ -152,7 +152,6 @@ h3  {
 
 
 /* location columns*/
-
 .address {
    margin-top: 0;
    padding-top: 35px;
@@ -166,15 +165,11 @@ h3  {
    align-items: center;
    justify-content: center;
    padding-right: 165px;
-
 }
- 
-
 .location span {
    background: #fff;
    margin: 0 15px;
 }
-
 .location:before {
    background:#C5D4C4;
    height: 40px;
@@ -183,17 +178,13 @@ h3  {
    border-radius: 0px 100px 100px 0;
    margin-right: 70px;
 }
-
 .location.left:after {
    background: none;
-
 }
-
 .location-info {
    background-color:#494F41;
    color:#F8F3EB;
 }
-
 .map {
    size:100%;
    padding-right: 83px;
@@ -417,6 +408,10 @@ h3  {
 .desktop-footer {
    background-color: #D2925F;
 }
+
+.mobile-footer {
+   display: none;
+}
 .logo {
    width: 250px;
    margin-left: 150px;
@@ -473,13 +468,6 @@ a {
    cursor: pointer;
 }
 
-.location {
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-
-   list-style-type: none;
-}
 
 .heading {
    font-size: 25px;
@@ -491,22 +479,6 @@ a {
    font-size: 25px;
    margin-right: 150px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -559,6 +531,7 @@ a {
    .location {
       padding-right: 55px;
       font-size: 20pt;
+
    }
 
    .location:before {
@@ -580,6 +553,7 @@ a {
       font-size: 25pt;
    }
    .mobile-footer {
+      background-color: #D2925F;
       display: contents;
    }
 
