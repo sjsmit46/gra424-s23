@@ -140,13 +140,17 @@ body {
    padding-left: 40px;
 }
 /* location columns*/
+
 .address {
    margin-top: 0;
    padding-top: 35px;
    margin-left: 0;
    margin-bottom: 0;
 }
-
+.row.address {
+   padding: 0;
+   padding-top: 20px;
+}
 .location {
    color:#C5D4C4;
    display: flex;
@@ -173,10 +177,12 @@ body {
    background-color:#494F41;
    color:#F8F3EB;
 }
+
 .map {
-   size:100%;
-   padding-right: 83px;
+   padding-top: 20px;
+   margin-right: 0;
    padding-left: 0;
+   padding-bottom: 0;
 }
 
 /* button for directions */
@@ -236,7 +242,8 @@ body {
   color: #F8F3EB;
 }
 
-.desktop-footer {
+
+.footer {
    background-color: #D2925F;
 }
 
@@ -363,7 +370,10 @@ a {
 
    .button2 {
       visibility: hidden;
+      margin: 0;
    }
+
+
    .menu {
       padding-left: 70px;
       font-size: 25pt;
@@ -408,8 +418,84 @@ a {
    .location:before {
       height: 20px;
    }
-  
+
+
+
+
    
+   .handle {
+      visibility: hidden;
+   }
+
+   .heading {
+      visibility: hidden;
+   }
    
+   .social ul li {
+      width: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   section.container {
+      margin: auto;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
+   
+   .links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+      justify-content: space-evenly;
+      
+   }
+   .logo {
+      width: 125px;
+      margin-left: 1em;
+      padding-bottom: 1em;
+   }
+   section.container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
+   
+   .links {
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+      justify-content: space-evenly;
+   }
+   
+   .links ul li {
+      padding: .5rem;
+   }
+   
+   .social {
+      flex-grow: 1;
+      padding:0;
+   }
+   
+   .social ul {
+      display: flex;
+      justify-content: center;
+   }
+   
+   .social ul li {
+      width: 3.5rem;
+      display: flex;
+   }
+   
+   .contact {
+      font-size: 18px;
+      margin-right: 30px;
+   }
+   
+
 }
 

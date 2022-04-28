@@ -56,3 +56,7 @@ window.addEventListener('scroll', () => {
   section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 })
 
+$("img", "final").hover(function() {
+  $('.final-image').toggle();
+  $('.final-static').toggle();
+});

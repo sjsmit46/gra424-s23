@@ -9,6 +9,7 @@ body {
   color:#274F3F;
   font-family: 'ivymode', 'le-monde-livre-std' sans-serif;
   margin-top: 20px;
+  font-weight:500;
 }
 
 .name {
@@ -16,11 +17,11 @@ body {
   font-family: 'ivymode';
 }
 
+
 .title {
   margin-top: 4rem;
   margin-left: 2rem;
   margin-bottom: 2rem;
-  font-style: normal;
   font-family: 'ivymode';
 }
 
@@ -38,14 +39,25 @@ td {
   display: none;
 }
 
-
 .final-image {
-  font-family: 'ivymode';
-  font-weight: 600;
+  max-width: 500px;
+  margin: auto;
 }
 
+.final-static {
+  max-width: 500px;
+  position: absolute;
+  margin-left: 2rem;
+  
+}
+
+.final-static:hover {
+  opacity: 0;
+  max-width: 500px;
+}
 
 .final-header {
+  font-family: 'ivymode';
   margin-left: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -58,11 +70,6 @@ td {
   margin-left: 2rem;
 }
 
-.final-image {
-  max-width: 500px;
-  margin: auto;
-}
-
 .footer-header {
 	font-family: "le-monde-livre-std";
 	font-weight: 500;
@@ -70,6 +77,7 @@ td {
   margin-left: 2rem;
 	padding-top: 2rem;
 }
+
 .copyright {
 	font-size: 12px;
   font-weight: 500;
@@ -246,6 +254,11 @@ td {
     margin-left: 6rem;
   }
 
+  .final-static {
+    max-width: 591px;
+    margin-left: 6rem;
+  }
+
   .final-header {
     margin-left: 6rem;
   }
@@ -256,7 +269,6 @@ td {
     margin-left:6rem;
     margin-right: 2rem;
   }
-  
 
   .slideshow-container {
     display: none;
