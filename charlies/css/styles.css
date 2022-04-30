@@ -9,6 +9,7 @@ html {
 body {
    background-color: #494F41;
    font-family: 'PT Sans', sans-serif;
+
 }
 
 .intro-text {
@@ -20,6 +21,7 @@ body {
    margin-left: 20px;
    margin-right: 100px;
    font-size:30px;
+   
 }
 
 .intro {
@@ -336,6 +338,7 @@ a {
       background-color: #494F41;
       font-size:20px;
       line-height: 140%;
+      white-space: nowrap;
    }
    .title2 {
       color: #EFDCCB;
@@ -498,4 +501,6 @@ a {
    
 
 }
+
+
 
