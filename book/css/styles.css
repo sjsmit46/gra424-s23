@@ -23,8 +23,6 @@ body {
   font-weight: 600;
 }
 
-
-
 .title {
   margin-top: 4rem;
   margin-left: 2rem;
@@ -36,7 +34,6 @@ body {
   font-family: "le-monde-livre-std";
   font-size:15px;
 }
-
 
 td {
   padding-right: 4rem;
@@ -52,12 +49,12 @@ td {
   max-width: 500px;
   margin: auto;
   padding-bottom: 2em;
+ 
 }
 
 .final-static {
-  max-width: 500px;
   position: absolute;
-  margin-left: 2rem;
+  visibility: hidden;
   
 }
 
@@ -71,6 +68,52 @@ td {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
+
+
+
+.how-container {
+  display: none;
+  width: 100%;
+  height: 21vw;
+  margin-bottom: 30px; 
+}
+
+.left-container {
+  float: left;
+  height: 21vw;
+  width: 50%;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 21vw;
+  width: 50%;
+  float: left;
+}
+
+.left-content {
+  width: 100%;
+  height: 21vw;
+}
+
+.right-content {
+  font-family: "le-monde-livre-std";
+  font-size:15px;
+  max-width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .about-p {
@@ -249,10 +292,19 @@ td {
 }
 
 
+@media screen and (max-width: 999px) {
+  .how-container {display: block; width: 100%; height: auto; text-align: left; margin: 0 auto 60px auto;}
+  .left-container  {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
+  .right-container {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
+  .left-content {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
+  .right-content {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto; max-width: 90%;}
+}
+  
+
+
 /* desktop */
 @media screen and (min-width: 768px) {
-
-
+  
   .about-p {
     display:none;
   }
@@ -265,11 +317,14 @@ td {
   .final-image {
     max-width: 591px;
     margin-left: 6rem;
+  
   }
 
   .final-static {
+    visibility: visible;
     max-width: 591px;
     margin-left: 6rem;
+    
   }
 
   .final-header {
@@ -303,6 +358,10 @@ td {
 	.footer-header {
 		display: none;
 	}
+
+  .how-container {
+    display: contents;
+  }
 
   .copyright2 {
 		display: contents;
