@@ -12,12 +12,17 @@ body {
   font-weight:500;
 }
 
+.sarah {
+  padding-left: 4rem;
+}
+
 .hamburger {
-  padding: 2rem;
+  padding-bottom: 2rem;
   size: 2rem;
 }
 
 .header{
+  margin-left: 0;
   font-size: 20px;
   font-family: 'le-monde-livre-std';
   font-weight: 600;
@@ -36,25 +41,14 @@ body {
 }
 
 td {
-  padding-right: 4rem;
+  padding-right: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 .image-grid {
   display: none;
-  padding-right: 4rem;
+  padding-right: 5rem;
   
 }
 
@@ -62,12 +56,16 @@ td {
   max-width: 500px;
   margin: auto;
   padding-bottom: 2em;
+  padding-right: 2rem;
+  margin-left: 2rem;
+  float: left;
  
 }
 
 .final-static {
   position: absolute;
   visibility: hidden;
+  padding-right: 2rem;
   
 }
 
@@ -83,48 +81,13 @@ td {
 }
 
 
-
-
-.how-container {
-  display: none;
-  width: 100%;
-  height: 21vw;
-  margin-bottom: 30px; 
-}
-
-.left-container {
-  float: left;
-  height: 21vw;
-  width: 50%;
-}
-
-.right-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 21vw;
-  width: 50%;
-  float: left;
-}
-
-.left-content {
-  width: 100%;
-  height: 21vw;
-}
-
-.right-content {
-  font-family: "le-monde-livre-std";
-  font-size:15px;
-  max-width: 70%;
-}
-
-
-
 .about-p {
   font-family: "le-monde-livre-std";
   font-size:15px;
   margin-top: 2rem;
   margin-left: 2rem;
+  padding: 2;
+  float: none;
 }
 
 .footer-header {
@@ -132,7 +95,9 @@ td {
 	font-weight: 500;
 	font-size: 14px;
   margin-left: 2rem;
+  float: none;
 	padding-top: 2rem;
+
   
 }
 
@@ -140,13 +105,16 @@ td {
 	font-size: 12px;
   font-weight: 500;
   margin-left: 2rem;
+  
 }
 
 .footer-header2 {
 	display: none;
+  
 }
 .copyright2 {
 	visibility: hidden;
+  
 }
 
 
@@ -173,7 +141,6 @@ td {
     margin-top: 30px;
     font-family: 'ivymode';
     font-weight: 600;
-    
     
 }
   
@@ -205,9 +172,10 @@ td {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  width: auto;
   position: relative;
-  margin: auto;
+  margin-left:2rem;
+  margin-right: 45px;
 }
 
 /* Hide the images by default */
@@ -277,15 +245,8 @@ td {
   background-color:var(--brown);
 }
 
-/*Fading animatio */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+
+
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -299,17 +260,37 @@ td {
 
 /*tablet */
 @media screen and (min-width: 750px) {
+
+  .about-p {
+    float: none;
+  }
+  .slideshow-container {
+    max-width: 560px;
+  }
   
+  .final-image {
+    max-width: 591px;
+    margin-left: 2rem;
+    padding-right: 2rem;
+  
+  }
+
+  .final-static {
+    visibility: visible;
+    max-width: 591px;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    
+  }
 }
+
 
 /* desktop */
 @media screen and (min-width: 1000px) {
-
-  
   .about-p {
-    display:none;
+    float: none;
+    padding-right: 2rem;
   }
-
 
   .dot {
     display: none;
@@ -318,6 +299,7 @@ td {
   .final-image {
     max-width: 591px;
     margin-left: 6rem;
+    padding-right: 2rem;
   
   }
 
@@ -325,6 +307,7 @@ td {
     visibility: visible;
     max-width: 591px;
     margin-left: 6rem;
+    padding-right: 2rem;
     
   }
 
@@ -337,43 +320,49 @@ td {
     display: grid;
     margin-left:6rem;
     margin-right: 2rem;
+
   }
 
   .slideshow-container {
     display: none;
   }
 
+
+
+
   .title {
     margin-left: 6rem;
+  }
+  .footer {
+    margin-left: 4rem;
+
   }
 
 	.footer-header2 {
 	  display: contents;
 	  font-family: "le-monde-livre-std";
+    margin-left: 4rem;
 	  font-weight: 500;
   	font-size: 20px; 
 
-	}
 
+	}
 
 	.footer-header {
 		display: none;
 	}
 
-  .how-container {
-    display: contents;
-  }
-
   .copyright2 {
 		display: contents;
 		font-size: 16px;
-    padding-left: 2rem;
+    
 
 	}
   
 	.copyright {
 	  font-size: 16px;
     font-weight: 500;
+    margin-left: 0;
 	}
 
 
