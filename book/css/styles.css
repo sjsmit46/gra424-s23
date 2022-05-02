@@ -51,6 +51,13 @@ td {
   padding-right: 5rem;
   
 }
+.image-grid2 {
+  display: none;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  
+}
+
 
 .final-image {
   max-width: 500px;
@@ -321,6 +328,13 @@ td {
     margin-left:6rem;
     margin-right: 2rem;
 
+  }
+
+  .image-grid2 {
+    visibility: visible;
+    display: grid;
+    margin-left:6rem;
+    margin-right: 2rem;
   }
 
   .slideshow-container {
