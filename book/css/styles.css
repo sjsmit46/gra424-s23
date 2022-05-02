@@ -353,7 +353,7 @@ td {
   }
 
 	.footer-header2 {
-	  display: contents;
+	  display: none;
 	  font-family: "le-monde-livre-std";
     margin-left: 4rem;
 	  font-weight: 500;
@@ -367,13 +367,14 @@ td {
 	}
 
   .copyright2 {
-		display: contents;
+		display: none;
 		font-size: 16px;
     
 
 	}
   
 	.copyright {
+    display: none;
 	  font-size: 16px;
     font-weight: 500;
     margin-left: 0;
