@@ -14,20 +14,23 @@
   <link rel="stylesheet" href="https://use.typekit.net/njf5ssw.css">
   <link rel="stylesheet" href="https://use.typekit.net/njf5ssw.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/styles.css">
+  
 
 </head>
 
 
 <body>
   <!-- Add your content here -->
-  <header>
+  <header class="header">
     <style>       
       a{
         cursor: url("images/cursor.png") 15 15, pointer;
       }
     </style>
-    <span class="name" style="font-weight:600;font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Sarah Smith</span>
+    <span class="hamburger" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+    <td class="sarah">Sarah Smith</td>
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
@@ -37,13 +40,14 @@
 				<a href="/motion.html">Motion</a>
 				<a href="/psaid.html">PSAid</a>
       </div>
+  
     </div>
   </header>
-
+  
 
   
-  <section class="title">
-    <h2>UX Design</h2>
+  <section style="font-weight:600" class="title">
+    <h2>UX</h2>
     <p class="title-p"></p>
   </section>
 
@@ -56,6 +60,9 @@
       <td><img src="images/psaidprogress5.png"></td>
     </tr>
   </table>
+
+
+
 
 
 <!-- Slideshow container -->
@@ -104,30 +111,48 @@
 <section class="final">
   <h2 class="final-header">Final</h2>
   <div>
+    <img class="final-static" src="images/final-62 (dragged).tiff">
     <img class="final-image" src="images/Digital_Image_Smith_Sarah_2022.gif">
   </div>
-  <p class="about-p">The USAID Center for International Disaster Information hosts a nationwide, annual contest for students.
-    Students are asked to creatively demonstrate why cash donations are the best way to support international disaster relief.
+  <p class="about-p">Mockup for a sports betting app, 'Gambit'. The design goal was to attract those interested in sports with a clean, modern look.
+
   </p>
 </section>
 
 
 
 
+<!-- 
+<section> 
+  <div class="how-container">
+    <div class="left-container">
+    <div class="left-content">
+      <img class="final-static" src="images/final-62 (dragged).tiff">
+      <img class="final-image" src="images/Digital_Image_Smith_Sarah_2022.gif">
+    </div>
+  </div>
+  <div class="right-container">
+      <div class="right-content">
+        <p>The USAID Center for International Disaster Information hosts a <br> nationwide, annual contest for students.
+      Students are asked to creatively demonstrate why cash donations are the best way to support international disaster relief. 
+      I decided to have people playing rock paper scissors with <br> each other, and have cash flow out of the losing hand towards the end. 
+      The losing hand is then depicted to have won, since cash is unbeatable <br> and cash is best.</p>
+      </div>
+  </div>
+  </div>
+</section> -->
 
 
 
- 
- 
-
-
-<footer class="footer">
-  <h2> </h2>
-  <p class="footer-header">The Visual Communication<br>Design Program</p>
-  <p class="footer-header2">The Visual Communication Design Program</p>
-  <p class="copyright">©2022 Sarah Smith </p>
-  <p class="copyright2">©2022 Sarah Smith </p>
-</footer>
+<section>
+  <footer class="footer">
+    <h2> </h2>
+    <p class="footer-header">The Visual Communication<br>Design Program</p>
+    <p class="footer-header2">The Visual Communication Design Program</p>
+    <p class="copyright">©2022 Sarah Smith </p>
+    <p class="copyright2">©2022 Sarah Smith </p>
+  </footer>
+</section>
 
 <!-- Load Scripts -->
 <script src="js/scripts.js"></script>
