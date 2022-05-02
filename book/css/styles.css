@@ -40,9 +40,22 @@ td {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .image-grid {
   display: none;
   padding-right: 4rem;
+  
 }
 
 .final-image {
@@ -104,15 +117,6 @@ td {
   font-size:15px;
   max-width: 70%;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -291,19 +295,16 @@ td {
   }
 }
 
-
-@media screen and (max-width: 999px) {
-  .how-container {display: block; width: 100%; height: auto; text-align: left; margin: 0 auto 60px auto;}
-  .left-container  {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
-  .right-container {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
-  .left-content {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto;}
-  .right-content {display: block; width: 100%; height: auto; float: none; text-align: left; margin: 15px auto 0px auto; max-width: 90%;}
-}
   
 
+/*tablet */
+@media screen and (min-width: 750px) {
+  
+}
 
 /* desktop */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
+
   
   .about-p {
     display:none;
@@ -351,10 +352,10 @@ td {
 	  font-family: "le-monde-livre-std";
 	  font-weight: 500;
   	font-size: 20px; 
-  	
 
 	}
-  
+
+
 	.footer-header {
 		display: none;
 	}
