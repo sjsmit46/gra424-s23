@@ -5,13 +5,7 @@ P {
 body {
     font-family: Helvetica, sans-serif;
     margin: 2rem;
-    background-color:aliceblue;
-}
 
-h1 {
-    color:black;
-    margin-left: 2rem;
-    margin-bottom: .8rem;
 }
 
 .back-button {
@@ -42,19 +36,8 @@ a:visited {
     text-decoration: none;
 }
 
-
-.p1hover:hover {
-    color:#8ecae6;
-    text-decoration: none;
-}
-
-.p2hover:hover {
-    color:#219ebc;
-    text-decoration: none;
-}
-
-.p3hover:hover {
-    color:#023047;
+a:hover {
+    color:#8ecae6;;
     text-decoration: none;
 }
 

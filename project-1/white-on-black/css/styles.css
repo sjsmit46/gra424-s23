@@ -1,0 +1,158 @@
+element.style {
+}
+
+html, body {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    
+}
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#8ecae6;;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+  
+}
+
+
+
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+}
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.square-1 {
+    display: flex;
+    border: 0.25pt solid rgb(0, 0, 0);
+    width: 71.428571vw;
+    height: 71.428571vw;
+    margin: auto;
+}
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.square-2 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 42.857143vw;
+    height: 42.857143vw;
+    margin: auto;
+}
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.square-3 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 14.285714vw;
+    height: 14.285714vw;
+    margin: auto;
+}
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
