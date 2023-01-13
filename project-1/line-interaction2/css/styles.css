@@ -1,0 +1,51 @@
+.webpage-format {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.original-format {
+    display: flex;
+    background-color: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.original-form-two {
+    display: flex;
+    background-color: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.addition-one {
+    display: flex;
+    background-color: #000;
+    width: 1.86335404vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.addition-one-left {
+    display: flex;
+    background-color: #000;
+    width: 1.86335404vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
+}
+
+.addition-one-right {
+    display: flex;
+    background-color: #000;
+    width: 1.86335404vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-right: 0;
+}
