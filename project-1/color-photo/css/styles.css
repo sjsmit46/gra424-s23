@@ -135,28 +135,7 @@ a {
     height: 71.428571vh; 
 }
 
-/* 5 as 6  */
 
-.five-as-six {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
-
-
-/* Value Matching  */
-
-.value-matching {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
 
 /* Texture  */
 
