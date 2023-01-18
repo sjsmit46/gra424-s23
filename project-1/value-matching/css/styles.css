@@ -6,7 +6,6 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-
 .back-button {
         padding-bottom: 3rem;
         font-size: 1rem;
@@ -15,17 +14,11 @@ body {
 ul {
     list-style-type: none;
     font-size: 2rem;
-    
 }
 
 a {
     color:black;
     text-decoration: none;
-}
-
-a:hover {
-    color: rgb(247, 48, 118);
-    text-decoration: underline;
 }
 
 /* Squares */
@@ -96,89 +89,15 @@ a:hover {
     display: flex;
 }
 
-/* Line Interaction  */
-
-.lines {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh;
-}
-
-/* Color Matching */
-
-.color-matching {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh;
-}
-
-/* Transparency  */
-
-.transparencys {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
-
-/* 4 as Three  */
-
-.four-as-three {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
-
-/* 5 as 6  */
-
-.five-as-six {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
-
 
 /* Value Matching  */
 
 .value-matching {
     display: flex;
     margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
+    border: .25px solid rgb(102, 102, 102);
     justify-content: center;
     width: 71.428571vw;
     height: 71.428571vh; 
 }
 
-/* Texture  */
-
-.texture-1 {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh; 
-}
-
-.texture-2 {
-    display: flex;
-    margin: auto;
-    border: .25pt solid rgb(102, 102, 102);
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh;
-}

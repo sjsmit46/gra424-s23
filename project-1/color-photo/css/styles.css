@@ -23,11 +23,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(247, 48, 118);
-    text-decoration: underline;
-}
-
 /* Squares */
 
 .container-1 {
